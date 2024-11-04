@@ -1,0 +1,282 @@
+// MDL v1 utf8
+mevislabVersion = 3.6.1.9
+network  {
+  watchlist = ""
+}
+module ImagePropertyConvert {
+  internal  {
+    frame = "218 878 152 72"
+    moduleGroupName = SCAN_DATA_LOAD
+    showNetworkPanel = true
+    windows  {
+      window _default {
+        geometry = "297 246 405 608"
+        sizeHint = "381 714"
+        wasOpen = no
+      }
+      window _scriptingconsole {
+        geometry = "660 327 598 492"
+        sizeHint = "256 192"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = ImagePropertyConvert
+    changeDimensionInfo = FALSE
+    cDimInfo = LUMINANCE
+    tDimInfo = "0000-00-00 00:00:00.000"
+    uDimInfo = UNKNOWN
+    a00 = 1
+    a01 = 0
+    a02 = 0
+    a03 = 0
+    a10 = 0
+    a11 = 1
+    a12 = 0
+    a13 = 0
+    a20 = 0
+    a21 = 0
+    a22 = 1
+    a23 = 0
+    a30 = 0
+    a31 = 0
+    a32 = 0
+    a33 = 1
+    worldMatrix = "1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1"
+    changeDatatype = FALSE
+    datatype = "unsigned int8"
+    changePageSize = FALSE
+    pageSizeX = 559
+    pageSizeY = 249
+    pageSizeZ = 1
+    pageSizeC = 1
+    pageSizeT = 1
+    pageSizeU = 1
+    changeMinGrayValue = FALSE
+    minGrayValue = 0
+    changeMaxGrayValue = FALSE
+    maxGrayValue = 255
+    changeWorldMatrix = TRUE
+    voxelSizeX = 1
+    voxelSizeY = 1
+    voxelSizeZ = 1
+    autoApply = FALSE
+  }
+}
+module Arithmetic {
+  internal  {
+    frame = "384 550 88 72"
+    moduleGroupName = EXTRACTION
+    showNetworkPanel = true
+    windows  {
+      window _default {
+        geometry = "846 230 682 567"
+        sizeHint = "682 567"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Arithmetic
+    expression = "a*(b>0)"
+    i1 = 0
+    i2 = 0
+    i3 = 0
+    i4 = 0
+    i5 = 0
+    i6 = 0
+    d1 = 0
+    d2 = 0
+    d3 = 0
+    d4 = 0
+    d5 = 0
+    d6 = 0
+    d7 = 0
+    d8 = 0
+    d9 = 0
+    d10 = 0
+    d11 = 0
+    d12 = 0
+    minValue = 0
+    maxValue = 1
+    setMinMaxValues = FALSE
+    dataType = int8
+    setDataType = FALSE
+    updateMode = AutoUpdate
+    applyMode = AutoApply
+    domainErrorHandling = ErrorMessage
+    numberOfInputs = 2
+    expressionComment = ""
+    scalarVariablesComment = ""
+  }
+}
+module Compose3DFrom2DFiles {
+  internal  {
+    frame = "146 1009 296 64"
+    moduleGroupName = SCAN_DATA_LOAD
+    windows  {
+      window _default {
+        geometry = "756 365 424 536"
+        sizeHint = "424 536"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = LOAD_VOLUME_from_2D_IMAGE_SEQUENCE
+    dirPath = ""
+    searchPattern = "***"
+    currentFile = ""
+    readRaw = FALSE
+    rawX = 1
+    rawY = 1
+    rawZ = 1
+    rawC = 1
+    rawT = 1
+    rawU = 1
+    rawDataType = "unsigned int8"
+    rawByteOrder = LittleEndian
+    rawPlanarConfig = Contiguous
+    rawDataOffset = 0
+  }
+}
+module itkImageFileReader {
+  internal  {
+    frame = "-131 1009 264 64"
+    moduleGroupName = SCAN_DATA_LOAD
+    windows  {
+      window _default {
+        geometry = "70 932 328 395"
+        sizeHint = "328 395"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = LOAD_VOLUME_from_SINGLE_3D_FILE
+    fileDataType = int16
+    autoDetermineDataType = TRUE
+    correctSubVoxelShift = TRUE
+    fileDimension = 3
+    info = "Invalid path"
+    numDims = 0
+    fileType = TypeNotApplicable
+    componentType = ""
+    pixelType = UNKNOWNPIXELTYPE
+    loaderType = ""
+    outputMetaDataStr = ""
+    suppressErrorPosting = FALSE
+    unresolvedFileName = ""
+  }
+}
+module itkImageFileReader {
+  internal  {
+    frame = "499 878 208 64"
+    moduleGroupName = SEGMENTATION_DATA_LOAD
+    windows  {
+      window _default {
+        geometry = "1478 240 328 395"
+        sizeHint = "328 395"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = LOAD_SEGMENTATION_MASK
+    fileDataType = int16
+    autoDetermineDataType = TRUE
+    correctSubVoxelShift = TRUE
+    fileDimension = 3
+    info = "Invalid path"
+    numDims = 0
+    fileType = TypeNotApplicable
+    componentType = ""
+    pixelType = UNKNOWNPIXELTYPE
+    loaderType = ""
+    outputMetaDataStr = ""
+    suppressErrorPosting = FALSE
+    unresolvedFileName = ""
+  }
+}
+module itkImageFileWriter {
+  internal  {
+    frame = "352 353 152 64"
+    moduleGroupName = SUBVOLUME_SAVE
+    windows  {
+      window _default {
+        geometry = "807 386 391 411"
+        sizeHint = "313 451"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SAVE_SUBVOLUME
+    useCompression = FALSE
+    correctSubVoxelShift = TRUE
+    forceDirectionCosineWrite = FALSE
+    outputVoxelType = Automatic
+    info = ""
+    unresolvedFileName = ""
+  }
+}
+connections  {
+  ImagePropertyConvert.input0 = LOAD_VOLUME_from_2D_IMAGE_SEQUENCE.output0
+  Arithmetic.input0 = LOAD_VOLUME_from_SINGLE_3D_FILE.output0
+  Arithmetic.input1 = LOAD_SEGMENTATION_MASK.output0
+  SAVE_SUBVOLUME.input0 = Arithmetic.output0
+}
+networkModel  {
+  parentItems  {
+    0  {
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 82
+        objectName = SCAN_DATA_LOAD
+        parentUniqueId = 0
+        color  {
+          r = 0
+          g = 85
+          b = 127
+          a = 40
+        }
+      }
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 108
+        objectName = SUBVOLUME_SAVE
+        parentUniqueId = 0
+        color  {
+          r = 226
+          g = 10
+          b = 50
+          a = 40
+        }
+      }
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 39
+        objectName = SEGMENTATION_DATA_LOAD
+        parentUniqueId = 0
+        color  {
+          r = 255
+          g = 255
+          b = 0
+          a = 40
+        }
+      }
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 44
+        objectName = EXTRACTION
+        parentUniqueId = 0
+        color  {
+          r = 178
+          g = 146
+          b = 226
+          a = 40
+        }
+      }
+    }
+  }
+}

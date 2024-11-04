@@ -1,0 +1,1629 @@
+// MDL v1 utf8
+mevislabVersion = 3.6.1.9
+network  {
+  watchlist = ""
+}
+module ImagePropertyConvert {
+  internal  {
+    frame = "-507 893 152 72"
+    moduleGroupName = "Volume loading and cropping"
+    showNetworkPanel = true
+    windows  {
+      window _default {
+        geometry = "292 211 405 655"
+        sizeHint = "381 721"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = ImagePropertyConvert
+    changeDimensionInfo = FALSE
+    cDimInfo = LUMINANCE
+    tDimInfo = "0000-00-00 00:00:00.000"
+    uDimInfo = UNKNOWN
+    a00 = 1
+    a01 = 0
+    a02 = 0
+    a03 = 0
+    a10 = 0
+    a11 = 1
+    a12 = 0
+    a13 = 0
+    a20 = 0
+    a21 = 0
+    a22 = 1
+    a23 = 0
+    a30 = 0
+    a31 = 0
+    a32 = 0
+    a33 = 1
+    worldMatrix = "1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1"
+    changeDatatype = FALSE
+    datatype = "unsigned int8"
+    changePageSize = FALSE
+    pageSizeX = 559
+    pageSizeY = 249
+    pageSizeZ = 1
+    pageSizeC = 1
+    pageSizeT = 1
+    pageSizeU = 1
+    changeMinGrayValue = FALSE
+    minGrayValue = 0
+    changeMaxGrayValue = FALSE
+    maxGrayValue = 255
+    changeWorldMatrix = TRUE
+    voxelSizeX = 1
+    voxelSizeY = 1
+    voxelSizeZ = 1
+    autoApply = FALSE
+  }
+}
+module SoGroup {
+  internal  {
+    frame = "-751 533 128 56"
+    moduleGroupName = Lights
+  }
+  fields  {
+    instanceName = SoGroup
+  }
+}
+module SoExaminerViewer {
+  internal  {
+    frame = "29 245 136 56"
+    moduleGroupName = ""
+    windows  {
+      window _viewer {
+        geometry = "497 288 655 728"
+        sizeHint = "400 400"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoExaminerViewer
+    renderCaching = AUTO
+    boundingBoxCaching = AUTO
+    renderCulling = AUTO
+    pickCulling = AUTO
+    border = FALSE
+    background = "0 0 0"
+    transparency = BLEND
+    antialiasing = FALSE
+    antialiasingNumPasses = 1
+    useSampleBuffers = FALSE
+    numSamples = 8
+    grabKeyFocus = TRUE
+    enableKeyCommands = TRUE
+    snapshotFormat = SNAPSHOT_RGB
+    outputAviFile = ""
+    autoRedrawWhenRecording = TRUE
+    frameRate = 7
+    frameRateAvi = 15
+    outputSnapshotFile = none
+    outputSnapshotFileWritten = none
+    autoIncreaseFile = TRUE
+    showSnapshotWithShell = FALSE
+    snapCount = 0
+    inputDevicesList = ""
+    headlight = TRUE
+    decoration = TRUE
+    popupMenuEnabled = FALSE
+    viewing = TRUE
+    autoClipping = TRUE
+    drawStyle = VIEW_AS_IS
+    interactiveDrawStyle = VIEW_LOW_COMPLEXITY
+    viewAllFlag = FALSE
+    initialCameraOrientation = CAMERA_KEEP_AS_IS
+    applyCameraOrientation = CAMERA_KEEP_AS_IS
+    cameraType = CAMERA_ORTHOGRAPHIC
+    autoApplyUserSettingOrientation = FALSE
+    userSettingOrientation = "0 0 1 0"
+    automaticViewAll = FALSE
+    storeCurrentState = TRUE
+    saveCamera = TRUE
+    cursor = TRUE
+    isCameraStored = TRUE
+    perspective = FALSE
+    stereoViewing = FALSE
+    stereoOffset = 3
+    height = 817.21631
+    position = "202.800262451172 669.860656738281 706.983154296875"
+    orientation = "-0.0201483312994242 0.591338515281677 0.806171715259552 3.35046529769897"
+    nearDistance = 272.39883
+    farDistance = 903.00922
+    focalDistance = 587.38916
+    forceRedrawOnInteraction = FALSE
+    button1events = TO_VIEWER
+    button2events = TO_VIEWER
+    button3events = TO_VIEWER
+    keyEvents = TO_VIEWER
+    animationEnabled = FALSE
+    feedback = FALSE
+    feedbackSize = 32
+    mouseInteraction = ""
+    rotationAxis = "0 1 0"
+    rotationAngle = 360
+    rotationSteps = 80
+    recordRotation = TRUE
+    wheelZoomEnabled = TRUE
+    wheelRotationEnabled = TRUE
+  }
+}
+module SoRenderArea {
+  internal  {
+    frame = "-399 127 112 56"
+    moduleGroupName = "Image acquisition"
+  }
+  fields  {
+    instanceName = SoRenderArea
+    renderCaching = AUTO
+    boundingBoxCaching = AUTO
+    renderCulling = AUTO
+    pickCulling = AUTO
+    border = FALSE
+    background = "0 0 0"
+    transparency = BLEND
+    antialiasing = FALSE
+    antialiasingNumPasses = 1
+    useSampleBuffers = FALSE
+    numSamples = 8
+    grabKeyFocus = TRUE
+    enableKeyCommands = TRUE
+    snapshotFormat = SNAPSHOT_RGB
+    outputAviFile = ""
+    autoRedrawWhenRecording = TRUE
+    frameRate = 7
+    frameRateAvi = 15
+    outputSnapshotFile = none
+    outputSnapshotFileWritten = none
+    autoIncreaseFile = TRUE
+    showSnapshotWithShell = FALSE
+    snapCount = 0
+    inputDevicesList = ""
+  }
+}
+module SoOrthographicCamera {
+  internal  {
+    frame = "-415 199 160 56"
+    moduleGroupName = "Image acquisition"
+  }
+  fields  {
+    instanceName = SoOrthographicCamera
+    viewportMapping = ADJUST_CAMERA
+    position = "225.957427978516 608.609558105469 852.349060058594"
+    orientation = "0.00738736428320408 0.602861106395721 0.797811985015869 3.32163166999817"
+    aspectRatio = 1
+    nearDistance = 279.45087
+    farDistance = 852.80109
+    focalDistance = 587.38916
+    height = 632.74493
+  }
+}
+module OffscreenRenderer {
+  internal  {
+    frame = "-419 39 168 72"
+    moduleGroupName = "Image acquisition"
+    showNetworkPanel = true
+    windows  {
+      window _default {
+        geometry = "796 365 359 424"
+        sizeHint = "328 424"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = OffscreenRenderer
+    transparencyType = BLEND
+    imageType = RGBA
+    bufferType = AUTO
+    stencilBuffer = TRUE
+    size = "1920 1080"
+    pixelScale = 0
+    bgColor = "1 1 1"
+    enableMultiSampling = TRUE
+    multiSampling = 16
+  }
+}
+module ImageSave {
+  internal  {
+    frame = "-391 -41 96 72"
+    moduleGroupName = "Image acquisition"
+    showNetworkPanel = true
+    windows  {
+      window _default {
+        geometry = "714 299 506 557"
+        sizeHint = "492 557"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = ImageSave
+    taskVerboseLogging = FALSE
+    filename = ""
+    addFileExtension = TRUE
+    format = TIFF
+    comment = SmARTR
+    allowOverwrite = FALSE
+    autoFilename = FALSE
+    sourceName = ""
+    postfix = .result1
+    dicomNameUsed = TRUE
+    dicomMetaHeader = FALSE
+    dicomDerived = FALSE
+    dicomDerivedImageType = "OTHER\\MEVISLAB"
+    dicomDiscardTags = FrameSpecific
+    dicomStoreTimeInfo = None
+    dicomSetWindow = FALSE
+    dicomWindowCenter = 0
+    dicomWindowWidth = 0
+    dicomIgnoreHalfVoxelShift = FALSE
+    tiffCompression = None
+    tiffTileX = 128
+    tiffTileY = 128
+    tiffTileXAuto = TRUE
+    tiffTileYAuto = TRUE
+    tiffLinearRGB = FALSE
+    saveDicomHeaderOnly = FALSE
+    pngCompression = Default
+    pngInterlaced = FALSE
+    jpegQuality = 75
+    jpegProgressive = FALSE
+  }
+}
+module SoLUTEditor {
+  internal  {
+    frame = "-295 644 104 56"
+    moduleGroupName = "Main volume"
+    windows  {
+      window _default {
+        geometry = "27 177 790 454"
+        sizeHint = "591 486"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoLUTEditor
+    rangeMin = 0
+    rangeMax = 4095
+    viewMin = 0
+    viewMax = 4095
+    window = 1
+    level = 0.5
+    allowNewPoints = TRUE
+    updateLutWhileDragging = TRUE
+    relativeLut = TRUE
+    colorInterpolation = InterpolateRGB
+    colorPoints = "[ 0 0 0 0, 4095 1 1 1 ]"
+    alphaPoints = "[ 0 0, 4095 1 ]"
+    alphaFactor = 0.70000005
+    newRangeMin = 0
+    newRangeMax = 4095
+    newRangeMode = ClipFormerLUT
+    colorEditorHeight = 24
+    showColorEditor = TRUE
+    showAlphaEditor = TRUE
+    markerRadius = 4
+    selectedMarkerRadius = 6
+    snapMarkerRadius = 10
+    alphaLineWidth = 2
+    backgroundColor = "0.800000011920929 0.800000011920929 0.800000011920929"
+    marginColor = "0.830999970436096 0.815999984741211 0.783999979496002"
+    borderColor = "0 0 0"
+    alphaLineColor = "0 0 0"
+    histogramColor = "0.400000005960464 0.400000005960464 0.400000005960464"
+    drawColoredMarkers = TRUE
+    markerColor = "1 1 1"
+    selectedMarkerColor = "1 0.5 0.5"
+    selectedTriangleSize = 8
+    triangleSize = 6
+    useAntiAliasing = TRUE
+  }
+}
+module SoPathTracerMaterial {
+  internal  {
+    frame = "-479 644 152 56"
+    moduleGroupName = "Main volume"
+    windows  {
+      window _default {
+        geometry = "493 355 427 704"
+        sizeHint = "335 524"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerMaterial
+    visible = TRUE
+    material = Material_Principled
+    alphaMode = Multiply
+    diffuseMode = Multiply
+    specular = 0.2
+    shininess = 0.5
+    specularIntensity = 0.2
+    horizonScattering = 0.5
+    backScattering = 0.5
+    horizonColor = "1 1 1"
+    metallic = 0
+    roughness = 0
+    specularTint = 0.30000001
+    sheenTint = 0.5
+    sheen = 0.5
+    clearcoatGloss = 0.60000002
+    clearcoat = 0.5
+    subsurface = 1
+    alpha = 1
+    diffuse = "1 1 1"
+    emissive = "0 0 0"
+    enableVolumeShader = TRUE
+    volumeShaderType = Shader_Hybrid
+    volumePhaseFunction = Phase_Isotropic
+    volumeGradientFactor = 50
+    volumePhaseFunctionParam = 0
+    silhouette = FALSE
+    silhouetteExponent = 0.1
+    silhouetteWeight = 0.2
+    silhouetteOffset = 0.30000001
+    boundaryEnhancement = FALSE
+    boundaryExponent = 1
+    boundaryWeight = 1
+    boundaryBias = 1
+    sRGB = TRUE
+  }
+}
+module SoPathTracerVolume {
+  internal  {
+    frame = "-415 524 152 56"
+    moduleGroupName = "Main volume"
+    windows  {
+      window _default {
+        geometry = "546 437 333 543"
+        sizeHint = "333 506"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerVolume
+    enableClipping = TRUE
+    flipClipping = FALSE
+    castShadow = TRUE
+    receiveShadow = TRUE
+    enabled = TRUE
+    enableVolumeRendering = TRUE
+    volumeName = PRIMARY
+    maskVolumeName = primary
+    tagVolumeName = tags
+    gradientVolumeName = gradients
+    timePoint = 0
+    maskColor0 = "1 0 0"
+    maskColor1 = "1 1 1"
+    maskAlpha0 = 0
+    maskAlpha1 = 1
+    maskTag0 = 0
+    maskTag1 = 0
+    stepSizeFactor = 1
+    stepSizeFactorShadow = 1
+    selfShadowingOffset = 1
+    transposeAdditionalMatrix = TRUE
+    additionalMatrix = "1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1"
+    subVolumeStartX = 0
+    subVolumeStartY = 0
+    subVolumeStartZ = 0
+    subVolumeEndX = 999999
+    subVolumeEndY = 999999
+    subVolumeEndZ = 999999
+    subVolumeUseWorldPositions = FALSE
+    subVolumeWorldStart = "0 0 0"
+    subVolumeWorldEnd = "0 0 0"
+    tracingMethod = Tracing_RayMarching
+    shaderType = Shader_Hybrid
+    gradientFactor = 20
+    precomputeGradients = FALSE
+  }
+}
+module SoPathTracerBackgroundLight {
+  internal  {
+    frame = "-803 629 232 56"
+    moduleGroupName = Lights
+    showNetworkPanel = true
+    windows  {
+      window _default {
+        geometry = "468 309 554 462"
+        sizeHint = "485 369"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerBackgroundLight
+    useIBL = FALSE
+    attachToCamera = FALSE
+    renderSource = FALSE
+    renderSourceIntensity = 1
+    sRGB = TRUE
+    enabled = TRUE
+    intensity = 5
+    topColor = "0.976470589637756 0.976470589637756 0.976470589637756"
+    middleColor = "0.996078431606293 0.996078431606293 0.996078431606293"
+    bottomColor = "0 0 0"
+    rotation = "0 0 1 0"
+  }
+}
+module SoPathTracerAreaLight {
+  internal  {
+    frame = "-791 837 208 56"
+    moduleGroupName = Lights
+    showNetworkPanel = true
+    windows  {
+      window _default {
+        geometry = "249 177 414 580"
+        sizeHint = "414 501"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerAreaLight1
+    scaleMode = ScaleToBoundingSphere
+    enabled = TRUE
+    renderSource = FALSE
+    color = "1 1 1"
+    intensity = 5
+    width = 0.5
+    height = 0.5
+    theta = 3535.1914
+    phi = 5433.6616
+    distance = 10
+    attachToCamera = TRUE
+    position = "0 0 0"
+    orientation = "0 0 1 0"
+    type = AreaLight_Rectangle
+    mode = DistanceAndAngles
+  }
+}
+module SoPathTracerAreaLight {
+  internal  {
+    frame = "-787 733 200 56"
+    moduleGroupName = Lights
+    showNetworkPanel = true
+    windows  {
+      window _default {
+        geometry = "103 370 504 588"
+        sizeHint = "504 588"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerAreaLight
+    scaleMode = ScaleToBoundingSphere
+    enabled = TRUE
+    renderSource = FALSE
+    color = "1 1 1"
+    intensity = 10
+    width = 0.5
+    height = 0.5
+    theta = 2716.5439
+    phi = 5030.3164
+    distance = 10
+    attachToCamera = TRUE
+    position = "0 0 0"
+    orientation = "0 0 1 0"
+    type = AreaLight_Rectangle
+    mode = DistanceAndAngles
+  }
+}
+module SoPathTracer {
+  internal  {
+    frame = "33 453 112 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "1165 227 685 491"
+        sizeHint = "684 491"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracer
+    directHDROutput = FALSE
+    aperture = 0
+    exposureFactor = 1
+    maxLuminance = 10
+    toneMapping = Exponential
+    renderMode = PathTracing
+    blendMode = Blend
+    backgroundTopColor = "1 1 1"
+    backgroundBottomColor = "0 0 0"
+    backgroundSRGB = TRUE
+    interactiveFrameRate = 30
+    pickingAlphaThreshold = 0.1
+    sharpenStart = 75
+    sharpenBlend = 100
+    sharpness = 1
+    enableLightGeometryScene = FALSE
+    enableStatistics = FALSE
+    noiseReduction = FALSE
+    denoiseType = Denoise_KNN
+    denoiseFinalIteration = 100
+    denoiseInitial = FALSE
+    denoiseFinal = FALSE
+    denoiseInitial_lerpC = 0.0099999998
+    denoiseInitial_noise = 4.4699998
+    denoiseInitial_weightThreshold = 0.1
+    denoiseInitial_lerpThreshold = 0
+    denoiseFinal_lerpC = 0.2
+    denoiseFinal_noise = 0.31999999
+    denoiseFinal_weightThreshold = 0.02
+    denoiseFinal_lerpThreshold = 0.79000002
+    bloom = FALSE
+    bloomIntensity = 2
+    bloomLuminanceThreshold = 1
+    bloomLuminanceThresholdBlend = 1
+    bloom1Tint = "0.666666686534882 0.458823531866074 0.549019634723663"
+    bloom2Tint = "1 1 1"
+    bloom3Tint = "1 1 1"
+    bloom1FilterSize = 1
+    bloom2FilterSize = 8
+    bloom3FilterSize = 15
+    numBounces = 1
+    maxIterations = 5000
+    forceFullQuality = FALSE
+    enableDepthBuffer = TRUE
+  }
+}
+module itkImageFileWriter {
+  internal  {
+    frame = "-287 909 128 56"
+    moduleGroupName = "Volume loading and cropping"
+    windows  {
+      window _default {
+        geometry = "802 351 395 453"
+        sizeHint = "317 453"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = itkImageFileWriter
+    useCompression = FALSE
+    correctSubVoxelShift = TRUE
+    forceDirectionCosineWrite = FALSE
+    outputVoxelType = Automatic
+    info = ""
+    unresolvedFileName = ""
+  }
+}
+module SoSeparator {
+  internal  {
+    frame = "-411 333 152 56"
+    moduleGroupName = ""
+  }
+  fields  {
+    instanceName = SoSeparator
+    renderCaching = AUTO
+    boundingBoxCaching = AUTO
+    renderCulling = AUTO
+    pickCulling = AUTO
+  }
+}
+module SoPathTracerVolumeInstance {
+  internal  {
+    frame = "-1377 -20 200 56"
+    moduleGroupName = SECONDARY_VOLUME_1
+    windows  {
+      window _default {
+        geometry = "427 213 405 597"
+        sizeHint = "405 597"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerVolumeInstance1
+    enableClipping = TRUE
+    flipClipping = FALSE
+    castShadow = TRUE
+    receiveShadow = TRUE
+    enabled = TRUE
+    enableVolumeRendering = TRUE
+    volumeName = SUBVOLUME_1
+    maskVolumeName = subvolume_1
+    tagVolumeName = tags
+    gradientVolumeName = gradients
+    timePoint = 0
+    maskColor0 = "1 0 0"
+    maskColor1 = "1 1 1"
+    maskAlpha0 = 0
+    maskAlpha1 = 1
+    maskTag0 = 0
+    maskTag1 = 0
+    stepSizeFactor = 1
+    stepSizeFactorShadow = 1
+    selfShadowingOffset = 1
+    transposeAdditionalMatrix = TRUE
+    additionalMatrix = "1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1"
+    subVolumeStartX = 0
+    subVolumeStartY = 0
+    subVolumeStartZ = 0
+    subVolumeEndX = -1
+    subVolumeEndY = -1
+    subVolumeEndZ = -1
+    subVolumeUseWorldPositions = FALSE
+    subVolumeWorldStart = "0 0 0"
+    subVolumeWorldEnd = "0 0 0"
+    tracingMethod = Tracing_RayMarching
+    shaderType = Shader_Hybrid
+    gradientFactor = 20
+    sourceVolumeName = PRIMARY
+  }
+}
+module SoPathTracerMaskVolume {
+  internal  {
+    frame = "-1580 -20 184 56"
+    moduleGroupName = SECONDARY_VOLUME_1
+    windows  {
+      window _default {
+        geometry = "861 539 248 67"
+        sizeHint = "164 67"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerMaskVolume1
+    enabled = TRUE
+    volumeName = subvolume_1
+  }
+}
+module itkImageFileReader {
+  internal  {
+    frame = "-1666 93 136 56"
+    moduleGroupName = SECONDARY_VOLUME_1
+    windows  {
+      window _default {
+        geometry = "759 344 402 467"
+        sizeHint = "402 467"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = itkImageFileReader
+    fileDataType = int16
+    autoDetermineDataType = TRUE
+    correctSubVoxelShift = TRUE
+    fileDimension = 3
+    info = "Invalid path"
+    numDims = 0
+    fileType = TypeNotApplicable
+    componentType = ""
+    pixelType = UNKNOWNPIXELTYPE
+    loaderType = ""
+    outputMetaDataStr = ""
+    suppressErrorPosting = FALSE
+    unresolvedFileName = ""
+  }
+}
+module SoPathTracerVolumeInstance {
+  internal  {
+    frame = "-1471 489 200 56"
+    moduleGroupName = SECONDARY_VOLUME_2
+    windows  {
+      window _default {
+        geometry = "233 345 405 597"
+        sizeHint = "405 597"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerVolumeInstance2
+    enableClipping = TRUE
+    flipClipping = FALSE
+    castShadow = TRUE
+    receiveShadow = TRUE
+    enabled = TRUE
+    enableVolumeRendering = TRUE
+    volumeName = SUBVOLUME_2
+    maskVolumeName = subvolume_2
+    tagVolumeName = tags
+    gradientVolumeName = gradients
+    timePoint = 0
+    maskColor0 = "1 0 0"
+    maskColor1 = "1 1 1"
+    maskAlpha0 = 0
+    maskAlpha1 = 1
+    maskTag0 = 0
+    maskTag1 = 0
+    stepSizeFactor = 1
+    stepSizeFactorShadow = 1
+    selfShadowingOffset = 1
+    transposeAdditionalMatrix = TRUE
+    additionalMatrix = "1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1"
+    subVolumeStartX = 0
+    subVolumeStartY = 0
+    subVolumeStartZ = 0
+    subVolumeEndX = -1
+    subVolumeEndY = -1
+    subVolumeEndZ = -1
+    subVolumeUseWorldPositions = FALSE
+    subVolumeWorldStart = "0 0 0"
+    subVolumeWorldEnd = "0 0 0"
+    tracingMethod = Tracing_RayMarching
+    shaderType = Shader_Hybrid
+    gradientFactor = 20
+    sourceVolumeName = PRIMARY
+  }
+}
+module SoPathTracerMaskVolume {
+  internal  {
+    frame = "-1674 489 184 56"
+    moduleGroupName = SECONDARY_VOLUME_2
+    windows  {
+      window _default {
+        geometry = "861 539 351 77"
+        sizeHint = "198 77"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerMaskVolume2
+    enabled = TRUE
+    volumeName = subvolume_2
+  }
+}
+module itkImageFileReader {
+  internal  {
+    frame = "-1765 604 144 56"
+    moduleGroupName = SECONDARY_VOLUME_2
+    windows  {
+      window _default {
+        geometry = "759 344 402 467"
+        sizeHint = "402 467"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = itkImageFileReader1
+    fileDataType = int16
+    autoDetermineDataType = TRUE
+    correctSubVoxelShift = TRUE
+    fileDimension = 3
+    info = "Invalid path"
+    numDims = 0
+    fileType = TypeNotApplicable
+    componentType = ""
+    pixelType = UNKNOWNPIXELTYPE
+    loaderType = ""
+    outputMetaDataStr = ""
+    suppressErrorPosting = FALSE
+    unresolvedFileName = ""
+  }
+}
+module SoPathTracerVolumeInstance {
+  internal  {
+    frame = "-1329 1001 200 56"
+    moduleGroupName = SECONDARY_VOLUME_3
+    windows  {
+      window _default {
+        geometry = "635 322 405 597"
+        sizeHint = "405 597"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerVolumeInstance3
+    enableClipping = TRUE
+    flipClipping = FALSE
+    castShadow = TRUE
+    receiveShadow = TRUE
+    enabled = TRUE
+    enableVolumeRendering = TRUE
+    volumeName = SUBVOLUME_3
+    maskVolumeName = subvolume_3
+    tagVolumeName = tags
+    gradientVolumeName = gradients
+    timePoint = 0
+    maskColor0 = "1 0 0"
+    maskColor1 = "1 1 1"
+    maskAlpha0 = 0
+    maskAlpha1 = 1
+    maskTag0 = 0
+    maskTag1 = 0
+    stepSizeFactor = 1
+    stepSizeFactorShadow = 1
+    selfShadowingOffset = 1
+    transposeAdditionalMatrix = TRUE
+    additionalMatrix = "1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1"
+    subVolumeStartX = 0
+    subVolumeStartY = 0
+    subVolumeStartZ = 0
+    subVolumeEndX = -1
+    subVolumeEndY = -1
+    subVolumeEndZ = -1
+    subVolumeUseWorldPositions = FALSE
+    subVolumeWorldStart = "0 0 0"
+    subVolumeWorldEnd = "0 0 0"
+    tracingMethod = Tracing_RayMarching
+    shaderType = Shader_Hybrid
+    gradientFactor = 20
+    sourceVolumeName = PRIMARY
+  }
+}
+module SoPathTracerMaskVolume {
+  internal  {
+    frame = "-1532 1001 184 56"
+    moduleGroupName = SECONDARY_VOLUME_3
+    windows  {
+      window _default {
+        geometry = "861 539 281 77"
+        sizeHint = "198 77"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerMaskVolume3
+    enabled = TRUE
+    volumeName = subvolume_3
+  }
+}
+module itkImageFileReader {
+  internal  {
+    frame = "-1627 1116 144 56"
+    moduleGroupName = SECONDARY_VOLUME_3
+    windows  {
+      window _default {
+        geometry = "759 344 402 467"
+        sizeHint = "402 467"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = itkImageFileReader2
+    fileDataType = int16
+    autoDetermineDataType = TRUE
+    correctSubVoxelShift = TRUE
+    fileDimension = 3
+    info = "Invalid path"
+    numDims = 0
+    fileType = TypeNotApplicable
+    componentType = ""
+    pixelType = UNKNOWNPIXELTYPE
+    loaderType = ""
+    outputMetaDataStr = ""
+    suppressErrorPosting = FALSE
+    unresolvedFileName = ""
+  }
+}
+module SoGroup {
+  internal  {
+    frame = "-1007 125 96 56"
+    moduleGroupName = ""
+  }
+  fields  {
+    instanceName = SoGroup1
+  }
+}
+module SoGroup {
+  internal  {
+    frame = "-1007 285 96 56"
+    moduleGroupName = ""
+  }
+  fields  {
+    instanceName = SoGroup2
+  }
+}
+module SoGroup {
+  internal  {
+    frame = "-1007 437 96 56"
+    moduleGroupName = ""
+  }
+  fields  {
+    instanceName = SoGroup3
+  }
+}
+module SoGroup {
+  internal  {
+    frame = "-1007 613 96 56"
+    moduleGroupName = ""
+  }
+  fields  {
+    instanceName = SoGroup4
+  }
+}
+module SoGroup {
+  internal  {
+    frame = "-779 5 184 56"
+    moduleGroupName = ""
+  }
+  fields  {
+    instanceName = Additional_Secondary_Volumes
+  }
+}
+module SoPathTracerMaterial {
+  internal  {
+    frame = "-1602 604 160 56"
+    moduleGroupName = SECONDARY_VOLUME_2
+    windows  {
+      window _default {
+        geometry = "74 343 471 791"
+        sizeHint = "379 611"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerMaterial5
+    visible = TRUE
+    material = Material_Principled
+    alphaMode = Ignore
+    diffuseMode = Multiply
+    specular = 0.2
+    shininess = 0.5
+    specularIntensity = 0.2
+    horizonScattering = 0.5
+    backScattering = 0.5
+    horizonColor = "1 1 1"
+    metallic = 0
+    roughness = 0
+    specularTint = 0.30000001
+    sheenTint = 0.5
+    sheen = 0.5
+    clearcoatGloss = 0.60000002
+    clearcoat = 0.5
+    subsurface = 1
+    alpha = 1
+    diffuse = "1 1 1"
+    emissive = "0 0 0"
+    enableVolumeShader = TRUE
+    volumeShaderType = Shader_Hybrid
+    volumePhaseFunction = Phase_Isotropic
+    volumeGradientFactor = 50
+    volumePhaseFunctionParam = 0
+    silhouette = FALSE
+    silhouetteExponent = 0.1
+    silhouetteWeight = 0.2
+    silhouetteOffset = 0.30000001
+    boundaryEnhancement = FALSE
+    boundaryExponent = 1
+    boundaryWeight = 1
+    boundaryBias = 1
+    sRGB = TRUE
+  }
+}
+module SoPathTracerMaterial {
+  internal  {
+    frame = "-1464 1116 160 56"
+    moduleGroupName = SECONDARY_VOLUME_3
+    windows  {
+      window _default {
+        geometry = "493 355 427 704"
+        sizeHint = "335 524"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerMaterial2
+    visible = TRUE
+    material = Material_Principled
+    alphaMode = Multiply
+    diffuseMode = Multiply
+    specular = 0.2
+    shininess = 0.5
+    specularIntensity = 0.2
+    horizonScattering = 0.5
+    backScattering = 0.5
+    horizonColor = "1 1 1"
+    metallic = 0
+    roughness = 0
+    specularTint = 0.30000001
+    sheenTint = 0.5
+    sheen = 0.5
+    clearcoatGloss = 0.60000002
+    clearcoat = 0.5
+    subsurface = 1
+    alpha = 1
+    diffuse = "1 1 1"
+    emissive = "0 0 0"
+    enableVolumeShader = TRUE
+    volumeShaderType = Shader_Hybrid
+    volumePhaseFunction = Phase_Isotropic
+    volumeGradientFactor = 50
+    volumePhaseFunctionParam = 0
+    silhouette = FALSE
+    silhouetteExponent = 0.1
+    silhouetteWeight = 0.2
+    silhouetteOffset = 0.30000001
+    boundaryEnhancement = FALSE
+    boundaryExponent = 0.89999998
+    boundaryWeight = 2
+    boundaryBias = 2.5
+    sRGB = TRUE
+  }
+}
+module SoLUTEditor {
+  internal  {
+    frame = "-1285 1116 120 56"
+    moduleGroupName = SECONDARY_VOLUME_3
+    windows  {
+      window _default {
+        geometry = "245 320 806 715"
+        sizeHint = "591 486"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoLUTEditor10
+    rangeMin = 0
+    rangeMax = 4095
+    viewMin = 0
+    viewMax = 4095
+    window = 1
+    level = 0.5
+    allowNewPoints = TRUE
+    updateLutWhileDragging = TRUE
+    relativeLut = TRUE
+    colorInterpolation = InterpolateRGB
+    colorPoints = "[ 0 0 0 0, 4095 1 1 1 ]"
+    alphaPoints = "[ 0 0, 4095 1 ]"
+    alphaFactor = 0.69999999
+    newRangeMin = 0
+    newRangeMax = 4095
+    newRangeMode = ClipFormerLUT
+    colorEditorHeight = 24
+    showColorEditor = TRUE
+    showAlphaEditor = TRUE
+    markerRadius = 4
+    selectedMarkerRadius = 6
+    snapMarkerRadius = 10
+    alphaLineWidth = 2
+    backgroundColor = "0.800000011920929 0.800000011920929 0.800000011920929"
+    marginColor = "0.830999970436096 0.815999984741211 0.783999979496002"
+    borderColor = "0 0 0"
+    alphaLineColor = "0 0 0"
+    histogramColor = "0.400000005960464 0.400000005960464 0.400000005960464"
+    drawColoredMarkers = TRUE
+    markerColor = "1 1 1"
+    selectedMarkerColor = "1 0.5 0.5"
+    selectedTriangleSize = 8
+    triangleSize = 6
+    useAntiAliasing = TRUE
+  }
+}
+module SoPathTracerMaterial {
+  internal  {
+    frame = "-1511 93 168 56"
+    moduleGroupName = SECONDARY_VOLUME_1
+    windows  {
+      window _default {
+        geometry = "493 355 427 704"
+        sizeHint = "335 524"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoPathTracerMaterial16
+    visible = TRUE
+    material = Material_Principled
+    alphaMode = Multiply
+    diffuseMode = Multiply
+    specular = 0.2
+    shininess = 0.5
+    specularIntensity = 0.2
+    horizonScattering = 0.5
+    backScattering = 0.5
+    horizonColor = "1 1 1"
+    metallic = 0
+    roughness = 0
+    specularTint = 0.30000001
+    sheenTint = 0.5
+    sheen = 0.5
+    clearcoatGloss = 0.60000002
+    clearcoat = 0.5
+    subsurface = 1
+    alpha = 1
+    diffuse = "1 1 1"
+    emissive = "0 0 0"
+    enableVolumeShader = TRUE
+    volumeShaderType = Shader_Hybrid
+    volumePhaseFunction = Phase_Isotropic
+    volumeGradientFactor = 50
+    volumePhaseFunctionParam = 0
+    silhouette = FALSE
+    silhouetteExponent = 0.1
+    silhouetteWeight = 0.2
+    silhouetteOffset = 0.30000001
+    boundaryEnhancement = FALSE
+    boundaryExponent = 1
+    boundaryWeight = 1
+    boundaryBias = 1
+    sRGB = TRUE
+  }
+}
+module SoGroup {
+  internal  {
+    frame = "-1007 805 96 56"
+    moduleGroupName = ""
+  }
+  fields  {
+    instanceName = SoGroup6
+  }
+}
+module BoundingBox {
+  internal  {
+    frame = "-1703 -20 104 56"
+    moduleGroupName = SECONDARY_VOLUME_1
+    windows  {
+      window _default {
+        geometry = "75 348 567 372"
+        sizeHint = "515 372"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = BoundingBox
+    useMin = TRUE
+    useMax = FALSE
+    objectMin = 1
+    objectMax = 1
+    updateMode = AutoUpdate
+  }
+}
+module SubImage {
+  internal  {
+    frame = "-1484 -135 88 56"
+    moduleGroupName = SECONDARY_VOLUME_1
+    windows  {
+      window _default {
+        geometry = "202 311 486 613"
+        sizeHint = "486 613"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SubImage
+    boxInput = "0 0 0 0 0 0 -1 -1 -1 -1 -1 -1"
+    autoApplyBox = TRUE
+    correctForNegativeSubImageExtents = FALSE
+    enableBoxClamping = FALSE
+    x = 0
+    sx = -1
+    modifyX = TRUE
+    y = 0
+    sy = -1
+    modifyY = TRUE
+    z = 0
+    sz = -1
+    modifyZ = TRUE
+    c = 0
+    sc = -1
+    modifyC = FALSE
+    t = 0
+    st = -1
+    modifyT = TRUE
+    u = 0
+    su = -1
+    modifyU = FALSE
+    fillValue = 0
+    mode = VoxelStartEnd
+    autoApply = FALSE
+  }
+}
+module BoundingBox {
+  internal  {
+    frame = "-1805 489 112 56"
+    moduleGroupName = SECONDARY_VOLUME_2
+    windows  {
+      window _default {
+        geometry = "75 348 567 372"
+        sizeHint = "515 372"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = BoundingBox1
+    useMin = TRUE
+    useMax = FALSE
+    objectMin = 1
+    objectMax = 1
+    updateMode = AutoUpdate
+  }
+}
+module SubImage {
+  internal  {
+    frame = "-1586 374 96 56"
+    moduleGroupName = SECONDARY_VOLUME_2
+    windows  {
+      window _default {
+        geometry = "202 311 486 613"
+        sizeHint = "486 613"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SubImage1
+    boxInput = "0 0 0 0 0 0 -1 -1 -1 -1 -1 -1"
+    autoApplyBox = TRUE
+    correctForNegativeSubImageExtents = FALSE
+    enableBoxClamping = FALSE
+    x = 0
+    sx = -1
+    modifyX = TRUE
+    y = 0
+    sy = -1
+    modifyY = TRUE
+    z = 0
+    sz = -1
+    modifyZ = TRUE
+    c = 0
+    sc = -1
+    modifyC = FALSE
+    t = 0
+    st = -1
+    modifyT = TRUE
+    u = 0
+    su = -1
+    modifyU = FALSE
+    fillValue = 0
+    mode = VoxelStartEnd
+    autoApply = FALSE
+  }
+}
+module BoundingBox {
+  internal  {
+    frame = "-1663 1001 112 56"
+    moduleGroupName = SECONDARY_VOLUME_3
+    windows  {
+      window _default {
+        geometry = "75 348 567 372"
+        sizeHint = "515 372"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = BoundingBox2
+    useMin = TRUE
+    useMax = FALSE
+    objectMin = 1
+    objectMax = 1
+    updateMode = AutoUpdate
+  }
+}
+module SubImage {
+  internal  {
+    frame = "-1444 886 96 56"
+    moduleGroupName = SECONDARY_VOLUME_3
+    windows  {
+      window _default {
+        geometry = "202 311 486 613"
+        sizeHint = "486 613"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SubImage2
+    boxInput = "0 0 0 0 0 0 -1 -1 -1 -1 -1 -1"
+    autoApplyBox = TRUE
+    correctForNegativeSubImageExtents = FALSE
+    enableBoxClamping = FALSE
+    x = 0
+    sx = -1
+    modifyX = TRUE
+    y = 0
+    sy = -1
+    modifyY = TRUE
+    z = 0
+    sz = -1
+    modifyZ = TRUE
+    c = 0
+    sc = -1
+    modifyC = FALSE
+    t = 0
+    st = -1
+    modifyT = TRUE
+    u = 0
+    su = -1
+    modifyU = FALSE
+    fillValue = 0
+    mode = VoxelStartEnd
+    autoApply = FALSE
+  }
+}
+module SoLUTEditor {
+  internal  {
+    frame = "-1423 604 112 56"
+    moduleGroupName = SECONDARY_VOLUME_2
+    windows  {
+      window _default {
+        geometry = "678 518 928 705"
+        sizeHint = "591 486"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoLUTEditor3
+    rangeMin = 0
+    rangeMax = 4095
+    viewMin = 0
+    viewMax = 4095
+    window = 1
+    level = 0.5
+    allowNewPoints = TRUE
+    updateLutWhileDragging = TRUE
+    relativeLut = TRUE
+    colorInterpolation = InterpolateRGB
+    colorPoints = "[ 0 0 0 0, 4095 1 1 1 ]"
+    alphaPoints = "[ 0 0, 4095 1 ]"
+    alphaFactor = 0.69999999
+    newRangeMin = 0
+    newRangeMax = 4095
+    newRangeMode = ClipFormerLUT
+    colorEditorHeight = 24
+    showColorEditor = TRUE
+    showAlphaEditor = TRUE
+    markerRadius = 4
+    selectedMarkerRadius = 6
+    snapMarkerRadius = 10
+    alphaLineWidth = 2
+    backgroundColor = "0.800000011920929 0.800000011920929 0.800000011920929"
+    marginColor = "0.830999970436096 0.815999984741211 0.783999979496002"
+    borderColor = "0 0 0"
+    alphaLineColor = "0 0 0"
+    histogramColor = "0.400000005960464 0.400000005960464 0.400000005960464"
+    drawColoredMarkers = TRUE
+    markerColor = "1 1 1"
+    selectedMarkerColor = "1 0.5 0.5"
+    selectedTriangleSize = 8
+    triangleSize = 6
+    useAntiAliasing = TRUE
+  }
+}
+module SoLUTEditor {
+  internal  {
+    frame = "-1326 93 112 56"
+    moduleGroupName = SECONDARY_VOLUME_1
+    windows  {
+      window _default {
+        geometry = "27 177 1058 418"
+        sizeHint = "515 450"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoLUTEditor1
+    rangeMin = 0
+    rangeMax = 4095
+    viewMin = 0
+    viewMax = 4095
+    window = 1
+    level = 0.5
+    allowNewPoints = TRUE
+    updateLutWhileDragging = TRUE
+    relativeLut = TRUE
+    colorInterpolation = InterpolateRGB
+    colorPoints = "[ 0 0 0 0, 4095 1 1 1 ]"
+    alphaPoints = "[ 0 0, 4095 1 ]"
+    alphaFactor = 0.69999999
+    newRangeMin = 0
+    newRangeMax = 4095
+    newRangeMode = ClipFormerLUT
+    colorEditorHeight = 24
+    showColorEditor = TRUE
+    showAlphaEditor = TRUE
+    markerRadius = 4
+    selectedMarkerRadius = 6
+    snapMarkerRadius = 10
+    alphaLineWidth = 2
+    backgroundColor = "0.800000011920929 0.800000011920929 0.800000011920929"
+    marginColor = "0.830999970436096 0.815999984741211 0.783999979496002"
+    borderColor = "0 0 0"
+    alphaLineColor = "0 0 0"
+    histogramColor = "0.400000005960464 0.400000005960464 0.400000005960464"
+    drawColoredMarkers = TRUE
+    markerColor = "1 1 1"
+    selectedMarkerColor = "1 0.5 0.5"
+    selectedTriangleSize = 8
+    triangleSize = 6
+    useAntiAliasing = TRUE
+  }
+}
+module Compose3DFrom2DFiles {
+  internal  {
+    frame = "-467 1005 168 56"
+    moduleGroupName = "Volume loading and cropping"
+    windows  {
+      window _default {
+        geometry = "672 376 424 536"
+        sizeHint = "424 536"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = Compose3DFrom2DFiles
+    dirPath = ""
+    searchPattern = "***"
+    currentFile = ""
+    readRaw = FALSE
+    rawX = 1
+    rawY = 1
+    rawZ = 1
+    rawC = 1
+    rawT = 1
+    rawU = 1
+    rawDataType = "unsigned int8"
+    rawByteOrder = LittleEndian
+    rawPlanarConfig = Contiguous
+    rawDataOffset = 0
+  }
+}
+connections  {
+  ImagePropertyConvert.input0 = Compose3DFrom2DFiles.output0
+  SoGroup.children = "SoPathTracerAreaLight.self SoPathTracerBackgroundLight.self SoPathTracerAreaLight1.self"
+  SoExaminerViewer.children = SoSeparator.self
+  SoRenderArea.children = "SoOrthographicCamera.self SoSeparator.self"
+  OffscreenRenderer.sceneGraph = SoRenderArea.self
+  ImageSave.input0 = OffscreenRenderer.output0
+  SoPathTracerVolume.inMaterial = SoPathTracerMaterial.self
+  SoPathTracerVolume.inLUT = SoLUTEditor.outLUT
+  SoPathTracerVolume.inVolume = ImagePropertyConvert.output0
+  itkImageFileWriter.input0 = Compose3DFrom2DFiles.output0
+  SoSeparator.children = "SoGroup.self SoPathTracerVolume.self Additional_Secondary_Volumes.self SoPathTracer.self"
+  SoPathTracerVolumeInstance1.inMaterial = SoPathTracerMaterial16.self
+  SoPathTracerVolumeInstance1.inLUT = SoLUTEditor1.outLUT
+  SoPathTracerVolumeInstance1.subVolumeStartX = SubImage.x
+  SoPathTracerVolumeInstance1.subVolumeStartY = SubImage.y
+  SoPathTracerVolumeInstance1.subVolumeStartZ = SubImage.z
+  SoPathTracerVolumeInstance1.subVolumeEndX = SubImage.sx
+  SoPathTracerVolumeInstance1.subVolumeEndY = SubImage.sy
+  SoPathTracerVolumeInstance1.subVolumeEndZ = SubImage.sz
+  SoPathTracerMaskVolume1.inVolume = itkImageFileReader.output0
+  SoPathTracerVolumeInstance2.inMaterial = SoPathTracerMaterial5.self
+  SoPathTracerVolumeInstance2.inLUT = SoLUTEditor3.outLUT
+  SoPathTracerVolumeInstance2.subVolumeStartX = SubImage1.x
+  SoPathTracerVolumeInstance2.subVolumeStartY = SubImage1.y
+  SoPathTracerVolumeInstance2.subVolumeStartZ = SubImage1.z
+  SoPathTracerVolumeInstance2.subVolumeEndX = SubImage1.sx
+  SoPathTracerVolumeInstance2.subVolumeEndY = SubImage1.sy
+  SoPathTracerVolumeInstance2.subVolumeEndZ = SubImage1.sz
+  SoPathTracerMaskVolume2.inVolume = itkImageFileReader1.output0
+  SoPathTracerVolumeInstance3.inMaterial = SoPathTracerMaterial2.self
+  SoPathTracerVolumeInstance3.inLUT = SoLUTEditor10.outLUT
+  SoPathTracerVolumeInstance3.subVolumeStartX = SubImage2.x
+  SoPathTracerVolumeInstance3.subVolumeStartY = SubImage2.y
+  SoPathTracerVolumeInstance3.subVolumeStartZ = SubImage2.z
+  SoPathTracerVolumeInstance3.subVolumeEndX = SubImage2.sx
+  SoPathTracerVolumeInstance3.subVolumeEndY = SubImage2.sy
+  SoPathTracerVolumeInstance3.subVolumeEndZ = SubImage2.sz
+  SoPathTracerMaskVolume3.inVolume = itkImageFileReader2.output0
+  SoGroup1.children = "SoPathTracerMaskVolume1.self SoPathTracerVolumeInstance1.self"
+  SoGroup2.children = "SoPathTracerMaskVolume2.self SoPathTracerVolumeInstance2.self"
+  SoGroup3.children = "SoPathTracerMaskVolume3.self SoPathTracerVolumeInstance3.self"
+  Additional_Secondary_Volumes.children = "SoGroup1.self SoGroup2.self SoGroup3.self SoGroup4.self SoGroup6.self"
+  BoundingBox.input0 = itkImageFileReader.output0
+  SubImage.boxInput = BoundingBox.boundingBox
+  BoundingBox1.input0 = itkImageFileReader1.output0
+  SubImage1.boxInput = BoundingBox1.boundingBox
+  BoundingBox2.input0 = itkImageFileReader2.output0
+  SubImage2.boxInput = BoundingBox2.boundingBox
+}
+networkModel  {
+  parentItems  {
+    0  {
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 167
+        objectName = Lights
+        parentUniqueId = 0
+        color  {
+          r = 7
+          g = 120
+          b = 226
+          a = 40
+        }
+      }
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 184
+        objectName = "Main volume"
+        parentUniqueId = 0
+        color  {
+          r = 7
+          g = 153
+          b = 4
+          a = 40
+        }
+      }
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 255
+        objectName = "Image acquisition"
+        parentUniqueId = 0
+        color  {
+          r = 226
+          g = 171
+          b = 40
+          a = 40
+        }
+      }
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 74
+        objectName = "Volume loading and cropping"
+        parentUniqueId = 0
+        color  {
+          r = 45
+          g = 226
+          b = 226
+          a = 40
+        }
+      }
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 91
+        objectName = SECONDARY_VOLUME_1
+        parentUniqueId = 0
+        color  {
+          r = 0
+          g = 85
+          b = 0
+          a = 40
+        }
+      }
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 146
+        objectName = SECONDARY_VOLUME_2
+        parentUniqueId = 0
+        color  {
+          r = 255
+          g = 0
+          b = 127
+          a = 40
+        }
+      }
+      MLABNetworkModelItem MLABNetworkModelItemGroup {
+        uniqueId = 173
+        objectName = SECONDARY_VOLUME_3
+        parentUniqueId = 0
+        color  {
+          r = 255
+          g = 85
+          b = 0
+          a = 40
+        }
+      }
+    }
+  }
+}

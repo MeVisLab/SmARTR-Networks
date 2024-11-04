@@ -1,2 +1,2 @@
 # SmARTR-Networks
-A collection of networks to implement photorealistic visualizations through the MeVis Path Tracer from the article "The Smartr Pipeline: a modular workflow for the cinematic rendering of 3D scientific imaging data"
+A series of networks to implement photorealistic renderings through the MeVis Path Tracer from the article "The Smartr Pipeline: a modular workflow for the cinematic rendering of 3D scientific imaging data"

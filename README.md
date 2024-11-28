@@ -3,7 +3,7 @@ A series of networks to implement photorealistic renderings through the MeVis Pa
 
 ![SmARTR_GIF_ADJ](https://github.com/user-attachments/assets/4f82c9cc-06e3-4640-98c7-0b78a137b818)
 
-**The SmARTR Pipeline and networks**
+**The SmARTR Pipeline**
 
 **Introduction**
 
@@ -11,6 +11,7 @@ Welcome to the **Sm**all **A**nimal **R**ealistic **T**hree-dimensional **R**end
 To assist users in implementing and utilizing the **SmARTR** visualization framework, a [step-by-step guide](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) is provided as the Supplemental Data of our article. This guide details the implementation and use of the different **SmARTR networks**. While network files are already available in this GitHub repository, the scan and mask files plus fully pre-configured networks designed to replicate the visualizations described in the various sections of the guide have been uploaded to **Zenodo**  (https://doi.org/10.5281/zenodo.12508131).
 Although our primary focus has been on small animal microCT scanning, the pipeline is versatile and can be applied to any biological specimen and 3D data, including those derived from MRI and other imaging methodologies. 
 ________________________________________
+
 **The SmARTR networks**
 
 The SmARTR networks integrate every step necessary for high-quality renderings and, though each network is designed with a particular scenario in mind, their applications are broad. As a general overview of the possibilities offered by each network, please have a look at **Figure 2** in the article.
@@ -91,7 +92,7 @@ We welcome contributions from the community! Feel free to:
 
 •	Modify networks: Adapt networks to new use cases and share your enhancements.
 
-•	Report issues: Submit bug reports or feature requests.
+•	Report issues: Submit bug reports.
 
 •	Collaborate: Join discussions and collaborate on future developments.
 

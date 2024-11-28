@@ -24,7 +24,7 @@ The SmARTR networks integrate every step necessary for high-quality renderings a
 
 The SmARTR_Single_Volume network is designed for rendering a single, homogeneous, and non-segmented volume—such as a single organ or animal part. "Homogeneous" refers to both the exterior and interior composition of the volume, which can be well approximated by a single appearance profile (color, light interaction, etc.). This ensures that the rendering accurately represents the volume's natural aspect, even if volume cutting is performed.
 
-•	If the single volume has non-homogeneous structures you wish to highlight, consider using the SmARTR_Nested_Multi-Volume network for photorealistic cutaway views.
+•	_If the single volume has non-homogeneous structures you wish to highlight, consider using the **SmARTR_Nested_Multi-Volume network** for photorealistic cutaway views._
 ________________________________________
 
 **2. SmARTR_Multi-Mask_Volume network**
@@ -32,46 +32,46 @@ ________________________________________
 
 The SmARTR_Multi-Mask_Volume network allows rendering of multiple subvolumes derived from the same scan volume within the same 3D scene. This is achieved by utilizing segmentation masks to "label" corresponding subvolumes on the whole scan volume. The network generates multiple instances (copies) of the entire scan volume, each displaying only the subvolume specified by its segmentation mask.
 
-•	Instances are less resource-demanding than loading new volumes, improving performance.
+•	_Instances are less resource-demanding than loading new volumes, improving performance._
 
-•	The network features an internal circuit to automatically crop loaded volumes to size, reducing real-time rendering and image acquisition time.
+•	_The network features an internal circuit to automatically crop loaded volumes to size, reducing real-time rendering and image acquisition time._
 
-•	If independent manipulation of subvolumes is needed, consider the SmARTR_Multi-Independent_Volume network.
+•	_If independent manipulation of subvolumes is needed, consider the **SmARTR_Multi-Independent_Volume network**._
 ________________________________________
 **3. SmARTR_Multi-Independent_Volume network**
 
 The SmARTR_Multi-Independent_Volume network provides a method to render multiple subvolumes extracted from the same scan volume as independent structures within the same 3D scene. Subvolumes are extracted using segmentation masks in an accessory network (the SmARTR_Volume_Extraction network) and then rendered independently.
 
-•	The network includes an internal circuit for cropping loaded volumes to size, optimizing performance. In some cases, when the source volume is particularly large, it can be less demanding than the SmARTR_Multi-Mask_Volume network.
+•	_The network includes an internal circuit for cropping loaded volumes to size, optimizing performance. In some cases, when the source volume is particularly large, it can be less demanding than the **SmARTR_Multi-Mask_Volume network**._
 
-•	The network allows generating cuts in multiple volumes using a single cutting module—a feature not possible in the SmARTR_Multi-Mask_Volume network.
+•	_The network allows generating cuts in multiple volumes using a single cutting module—a feature not possible in the **SmARTR_Multi-Mask_Volume network**._
 ________________________________________
 **4. SmARTR_Nested_Multi-Volume network**
 
 The SmARTR_Nested_Multi-Volume network enables photorealistic cutaway views when dealing with volumes nested within one another, such as the head with its skull and brain, or the body with its visceral organs. The strategy developed in this network saves time by avoiding the need for extensive segmentation of intermediate structures when creating photorealistic multi-organ cutaway views. Volume cutting operations in this network generate a supplementary volume at the interface between the exposed surface and the overlaying space. This new volume can be rendered independently to match the internal appearance of the sectioned volume, thereby enhancing scene realism.
 
-•	The network can be utilized when dealing with single non-homogeneous volumes and also to add an extra level of control and refinement when rendering single homogeneous volumes.
+•	_The network can be utilized when dealing with single non-homogeneous volumes and also to add an extra level of control and refinement when rendering single homogeneous volumes._
 ________________________________________
 **5. SmARTR_Pattern_Drawing network**
 
 The SmARTR_Pattern_Drawing network allows the creation of color patterns on volumes to approximate the natural coloration of samples. While complex color schemes may be unattainable due to limitations of internal imaging and DVR techniques, this network enables the generation of multiple patterns rendered as independent structures, enhancing realism and lifelikeness of rendered specimens.
 
-•	Detailed guidance on how to implement bilateral patterns or symmetric markings extending beyond the midline is provided in the Supplemental information accompanying the article.
+•	_Detailed guidance on how to implement bilateral patterns or symmetric markings extending beyond the midline is provided in the Supplemental information accompanying the article._
 
-•	The binary masks generated during pattern drawing can be utilized in the SmARTR_Advanced_Multi-Volume network to create enhanced cutaway views.
+•	_The binary masks generated during pattern drawing can be utilized in the **SmARTR_Advanced_Multi-Volume network** to create enhanced cutaway views._
 ________________________________________
 **6. SmARTR_Advanced_Multi-Volume network**
 
 The SmARTR_Advanced_Multi-Volume network is a modified version of the SmARTR_Nested_Multi-Volume network and serves as the endpoint of a workflow involving multiple networks. It allows enhanced cutaway views of multiple volumes that share the same internal structure but differ in surface color, such as the atrial and ventricular regions of the lizard’s heart or differently colored parts of a lizard's body.
 
-•	The network uses the binary masks generated in the SmARTR_Pattern_Drawing network. Alternatively, the structure of interest can be segmented with MeVisLab segmentation modules or in an external software.
+•	_The network uses the binary masks generated in the **SmARTR_Pattern_Drawing network**. Alternatively, the structure of interest can be segmented with MeVisLab segmentation modules or in an external software._
 
-•	As for the SmARTR_Multi-Independent_Volume network, the individual volumes are extracted in the SmARTR_Volume_Extraction network.
+•	_As for the **SmARTR_Multi-Independent_Volume network**, the individual volumes are extracted in the **mARTR_Volume_Extraction network**._
 
 ________________________________________
 For detailed instructions, please refer to the [step-by-step guide](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) provided as Supplemental Data of the article.
 ________________________________________
-**Visual Examples**
+**Rendering Examples**
 
 To showcase the capabilities of the SmARTR pipeline powered by the MeVis path tracer, here are some examples of photorealistic 3D renderings generated using our networks:
 

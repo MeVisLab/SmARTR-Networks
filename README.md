@@ -13,7 +13,7 @@ The **SmARTR** Pipeline is a comprehensive multi-step workflow that guides users
 To assist users in implementing and utilizing the **SmARTR** visualization framework, a [step-by-step guide](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) is provided as the Supplemental Data of our article. This guide details the implementation and use of the different **SmARTR networks**. While network files are already available in this GitHub repository, the scan and mask files plus fully pre-configured networks designed to replicate the visualizations described in the various sections of the guide have been uploaded to **Zenodo**  (https://doi.org/10.5281/zenodo.12508131).
 Although our primary focus has been on small animal microCT scanning, the pipeline is versatile and can be applied to any biological specimen and 3D data, including those derived from MRI and other imaging methodologies.
 
-**----- Ctrl+Click on the thumbnail below to watch a short video summarizing our work on YouTube -----** 
+**$\textcolor{red}{Ctrl+Click\ on\ the\ thumbnail\ below\ to\ watch\ a\ short\ video\ on\ YouTube\ summarizing\ our\ work}$**
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg)](https://www.youtube.com/watch?v=2hrkvZmuVxI)
 ________________________________________
@@ -75,7 +75,7 @@ The SmARTR_Advanced_Multi-Volume network is a modified version of the SmARTR_Nes
 ________________________________________
 For detailed instructions, please refer to the [step-by-step guide](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) provided as Supplemental Data of the article.
 ________________________________________
-**Rendering Examples**
+**Rendering examples**
 
 To showcase the capabilities of the SmARTR pipeline powered by the MeVis path tracer, here are some examples of photorealistic 3D renderings generated using our networks:
 

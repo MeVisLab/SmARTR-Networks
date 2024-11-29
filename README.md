@@ -71,7 +71,7 @@ The SmARTR_Advanced_Multi-Volume network is a modified version of the SmARTR_Nes
 
 •	_The network uses the binary masks generated in the **SmARTR_Pattern_Drawing network**. Alternatively, the structure of interest can be segmented with MeVisLab segmentation modules or in an external software._
 
-•	_As for the **SmARTR_Multi-Independent_Volume network**, the individual volumes are extracted in the **mARTR_Volume_Extraction network**._
+•	_As for the **SmARTR_Multi-Independent_Volume network**, the individual volumes are extracted in the **SmARTR_Volume_Extraction network**._
 
 ________________________________________
 For detailed instructions, please refer to the [**step-by-step guide**](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) provided as Supplemental Data of the article.
@@ -83,14 +83,27 @@ To showcase the capabilities of the SmARTR pipeline powered by the MeVis path tr
 
 ![MeVisLab_Web_Panel_1 copy](https://github.com/user-attachments/assets/95739f70-39ff-4787-9bca-eac37b5f1c85)
 
+**(Top row)**: Images of a live specimen of the lizard *Anolis carolinensis* (left) and the dissected heart from the bearded dragon lizard, *Pogona vitticeps* (right). **(Bottom row)**: 3D renderings of the heart of *Pogona vitticeps* (top left), the sectioned head of *Anolis carolinensis* highlighting the skull and brain (top right), and an intact specimen of *Anolis carolinensis* (bottom). **$\textcolor{yellow}{SmARTR\ Networks\ used}$**: **SmARTR_Multi-Independent_Volume network** for the *Pogona vitticeps* heart; **SmARTR_Advanced_Multi-Volume network** for the sectioned head; **SmARTR_Pattern_Drawing** for the intact *Anolis carolinensis* specimen.
+  **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
+
+
 ***
 ![MeVisLab_Web_Panel_2 copy](https://github.com/user-attachments/assets/330a9800-d633-45dc-89f3-8ba5d389986b)
+
+
+**(Top row)**: Renderings of the head of the snake *Cerastes cerastes*—intact (left) and sectioned to highlight the venom system (right). **(Bottom row)**: Renderings of the anterior part of the hillstream loach, *Gastromyzon zebrinus*—sectioned to highlight the skeleton, brain, and gills (left) and intact (right).  **$\textcolor{yellow}{SmARTR\ Networks\ used}$**: **SmARTR_Pattern_Drawing network** for the intact specimens; **SmARTR_Advanced_Multi-Volume network** for the cutaway views.  **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 ***
 ![MeVisLab_Web_Panel_3 copy](https://github.com/user-attachments/assets/028076e9-a54a-4e79-ac12-56f0fe44e694)
 
+
+**(Top row)**: Renderings of the head of the lizard *Basiliscus vittatus* (left), and the heart (middle) and lungs (right) of the lizard *Pogona vitticeps*, both sectioned to reveal internal structures. **(Bottom row)**: Renderings of the lungs (left), head (middle), and trunk (right) of the house mouse, *Mus musculus*. **$\textcolor{yellow}{SmARTR\ Networks\ used}$**: **SmARTR_Pattern_Drawing network** for the intact specimen; **SmARTR_Nested_Multi-Volume network** for the mouse head, lungs, and trunk, and lizard lungs; **SmARTR_Advanced_Multi-Volume network** for the cutaway view of the lizard heart. **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
+
 ***
 ![MeVisLab_Web_Panel_4 copy](https://github.com/user-attachments/assets/ed48cebd-8265-4c9b-8e00-a13102015dbe)
+
+
+**(Top row)**: Forelimbs of the tree frog Agalychnis callidryas (left) and the dwarf chameleon Chamaeleo calyptratus (right). **(Bottom row)**: Rendering of the skeleton and internal organs of the tree frog *Agalychnis callidryas* (left), the intact body of the cricket *Gryllus bimaculatus* (middle), and the ground beetle *Pterostichus oblongopunctatus* (right).  **$\textcolor{yellow}{SmARTR\ Networks\ used}$**: **SmARTR_Single-Volume network** for both species' forelimbs and the beetle rendering; **SmARTR_Multi-Independent_Volume network** for the frog's skeleton and organs; **SmARTR_Pattern_Drawing neywork** for the intact cricket specimen. **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 ___________________________
 **Contribute**

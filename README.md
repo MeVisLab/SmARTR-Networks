@@ -19,7 +19,7 @@ Although our primary focus has been on small animal microCT scanning, the pipeli
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg)](https://www.youtube.com/watch?v=2hrkvZmuVxI)
 ________________________________________
 
-**The SmARTR networks**
+**The SmARTR networks at a glance**
 
 The SmARTR networks integrate every step necessary for high-quality renderings and, though each network is designed with a particular scenario in mind, their applications are broad. As a general overview of the possibilities offered by each network, please have a look at **Figure 2** in the article.
 ***

@@ -74,7 +74,7 @@ The SmARTR_Advanced_Multi-Volume network is a modified version of the SmARTR_Nes
 •	_As for the **SmARTR_Multi-Independent_Volume network**, the individual volumes are extracted in the **mARTR_Volume_Extraction network**._
 
 ________________________________________
-For detailed instructions, please refer to the [step-by-step guide](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) provided as Supplemental Data of the article.
+For detailed instructions, please refer to the [**step-by-step guide**](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) provided as Supplemental Data of the article.
 ________________________________________
 **Rendering examples**
 

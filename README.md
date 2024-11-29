@@ -103,7 +103,7 @@ To showcase the capabilities of the SmARTR pipeline powered by the MeVis path tr
 ![MeVisLab_Web_Panel_4 copy](https://github.com/user-attachments/assets/ed48cebd-8265-4c9b-8e00-a13102015dbe)
 
 
-**(Top row)**: Forelimbs of the tree frog Agalychnis callidryas (left) and the dwarf chameleon Chamaeleo calyptratus (right). **(Bottom row)**: Rendering of the skeleton and internal organs of the tree frog *Agalychnis callidryas* (left), the intact body of the cricket *Gryllus bimaculatus* (middle), and the ground beetle *Pterostichus oblongopunctatus* (right).  **$\textcolor{yellow}{SmARTR\ Networks\ used}$**: **SmARTR_Single-Volume network** for both species' forelimbs and the beetle rendering; **SmARTR_Multi-Independent_Volume network** for the frog's skeleton and organs; **SmARTR_Pattern_Drawing neywork** for the intact cricket specimen. **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
+**(Top row)**: Forelimbs of the tree frog *Agalychnis callidryas* (left) and the dwarf chameleon *Chamaeleo calyptratus* (right). **(Bottom row)**: Rendering of the skeleton and internal organs of the tree frog *Agalychnis callidryas* (left), the intact body of the cricket *Gryllus bimaculatus* (middle), and the ground beetle *Pterostichus oblongopunctatus* (right).  **$\textcolor{yellow}{SmARTR\ Networks\ used}$**: **SmARTR_Single-Volume network** for both species' forelimbs and the beetle rendering; **SmARTR_Multi-Independent_Volume network** for the frog's skeleton and organs; **SmARTR_Pattern_Drawing neywork** for the intact cricket specimen. **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 ___________________________
 **Contribute**

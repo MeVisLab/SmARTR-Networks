@@ -121,7 +121,7 @@ For questions, support, or to share your experiences, please open an issue in th
 ***
 
 
-Let's make the SmARTR Pipeline community grow together! With our comprehensive networks exploiting the full power of MeVisLab visualization framework and integrating all steps from data loading to final image production, advanced 3D visualization has never been more accessible.
+Let's make the **SmARTR community** grow together! With our comprehensive networks exploiting the full power of MeVisLab visualization framework and integrating all steps from data loading to final image production, advanced 3D visualization has never been more accessible.
 
 ***
 

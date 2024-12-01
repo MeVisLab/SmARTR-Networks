@@ -14,6 +14,8 @@ To assist users in implementing and utilizing the **SmARTR** visualization frame
 
 Although our primary focus has been on small animal microCT scanning, the pipeline is versatile and can be applied to any biological specimen and 3D data, including those derived from MRI and other imaging methodologies.
 
+![G_ABS_3_RED_FINAL_GIT](https://github.com/user-attachments/assets/9613c040-93a3-4f04-a6cd-85ebb4a4dddc)
+
 **$\textcolor{red}{Click\ on\ the\ thumbnail\ below\ to\ watch\ a\ short\ video\ on\ YouTube\ summarizing\ our\ work}$**
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg)](https://www.youtube.com/watch?v=2hrkvZmuVxI)

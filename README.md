@@ -9,7 +9,7 @@ A series of **MeVisLab** networks to implement photorealistic renderings through
 
 Welcome to the **Sm**all **A**nimal **R**ealistic **T**hree-dimensional **R**endering Pipeline (**SmARTR**) GitHub repository!
 
-The **SmARTR** Pipeline is a comprehensive multi-step workflow that guides users through sample preparation, imaging and visualization procedures. This project hosts a collection of comprehensive **MeVisLab** network files—referred to as **SmARTR networks**—designed to leverage the extraordinary capabilities of the **MeVis path tracer** in generating **photorealistic renderings** of 3D data. These networks integrate all steps from sample loading to rendering, volume modification, and the final processes required to produce high definition 2D images of your samples.
+The **SmARTR** Pipeline is a comprehensive multi-step workflow ($\textcolor{yellow}{see\ figure\ below}$) that guides users through sample preparation, imaging and visualization procedures. This project hosts a collection of comprehensive **MeVisLab** network files—referred to as **SmARTR networks**—designed to leverage the extraordinary capabilities of the **MeVis path tracer** in generating **photorealistic renderings** of 3D data. These networks integrate all steps from sample loading to rendering, volume modification, and the final processes required to produce high definition 2D images of your samples.
 To assist users in implementing and utilizing the **SmARTR** visualization framework, a [**step-by-step guide**](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) is provided as the Supplemental Data of our article. This guide details the implementation and use of the different **SmARTR networks**. **$\textcolor{yellow}{The\ SmARTR\ Networks\ are\ available}$** [**HERE**](https://github.com/MeVisLab/SmARTR-Networks/raw/refs/heads/main/SmARTR%20Networks.zip?download=]) and on [**Zenodo**](https://doi.org/10.5281/zenodo.12508131) as a zipped folder. The folder contains also fully pre-configured versions of the networks and the relevant scan and mask files needed to replicate the visualizations described in the various sections of the guide.
 
 Although our primary focus has been on small animal microCT scanning, the pipeline is versatile and can be applied to any biological specimen and 3D data, including those derived from MRI and other imaging methodologies.
@@ -21,7 +21,7 @@ Although our primary focus has been on small animal microCT scanning, the pipeli
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg)](https://www.youtube.com/watch?v=2hrkvZmuVxI)
 ________________________________________
 
-**The SmARTR networks at a glance**
+**$\textcolor{yellow}{The\ SmARTR\ networks\ at\ a\ glance}$**
 
 The SmARTR networks integrate every step necessary for high-quality renderings and, though each network is designed with a particular scenario in mind, their applications are broad. As a general overview of the possibilities offered by each network, please have a look at **Figure 2** in the article.
 ***

@@ -1,4 +1,4 @@
-# The SmARTR Networks
+# The SmARTR Networks 
 A series of **MeVisLab** networks to implement photorealistic renderings through the **MeVis Path Tracer** from: 
 
 "[**The SmARTR pipeline: a modular workflow for the cinematic rendering of 3D scientific imaging data**](https://www.cell.com/iscience/fulltext/S2589-0042(24)02702-0)"
@@ -19,13 +19,11 @@ Although our primary focus has been on small animal microCT scanning, the pipeli
 ![G_ABS_3_RED_FINAL_GIT](https://github.com/user-attachments/assets/9613c040-93a3-4f04-a6cd-85ebb4a4dddc)
 ***
 
-<p align="center">
-<ins> **Click on the thumbnail below to watch a short video on YouTube summarizing our work** <ins>
-  </p>
 
-<p align="center">
-  <img src="https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg?raw=true" alt="Sublime's custom image"/>
-</p>
+<ins> **Click on the thumbnail below to watch a short video on YouTube summarizing our work** <ins>
+
+
+[![](https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg)](https://www.youtube.com/watch?v=2hrkvZmuVxI)
 
 ---
  
@@ -88,7 +86,8 @@ For detailed instructions, please refer to the [**step-by-step guide**](https://
 ________________________________________
 **$\textcolor{red}{Rendering\ examples}$**
 
-To showcase the capabilities of the SmARTR pipeline powered by the MeVis path tracer, here are some examples of photorealistic 3D renderings generated using our networks:
+To showcase the capabilities of the SmARTR pipeline powered by the MeVis path tracer, below are some examples of photorealistic 3D renderings generated using our networks
+
 
 
 ![MeVisLab_Web_Panel_1 copy](https://github.com/user-attachments/assets/95739f70-39ff-4787-9bca-eac37b5f1c85)

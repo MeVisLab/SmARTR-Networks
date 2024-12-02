@@ -5,6 +5,8 @@ A series of **MeVisLab** networks to implement photorealistic renderings through
 
 ![SmARTR_GIF_ADJ](https://github.com/user-attachments/assets/4f82c9cc-06e3-4640-98c7-0b78a137b818)
 
+---
+
 **The SmARTR Pipeline**
 
 Welcome to the **Sm**all **A**nimal **R**ealistic **T**hree-dimensional **R**endering Pipeline (**SmARTR**) GitHub repository!
@@ -15,6 +17,7 @@ To assist users in implementing and utilizing the **SmARTR** visualization frame
 Although our primary focus has been on small animal microCT scanning, the pipeline is versatile and can be applied to any biological specimen and 3D data, including those derived from MRI and other imaging methodologies.
 
 ![G_ABS_3_RED_FINAL_GIT](https://github.com/user-attachments/assets/9613c040-93a3-4f04-a6cd-85ebb4a4dddc)
+***
 
 <p align="center">
 <ins> **Click on the thumbnail below to watch a short video on YouTube summarizing our work** <ins>
@@ -24,7 +27,7 @@ Although our primary focus has been on small animal microCT scanning, the pipeli
   <img src="https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg?raw=true" alt="Sublime's custom image"/>
 </p>
 
-
+---
  
  **The SmARTR networks at a glance**
 

@@ -20,10 +20,13 @@ Although our primary focus has been on small animal microCT scanning, the pipeli
 ***
 
 
-<ins> **Click on the thumbnail below to watch a short video on YouTube summarizing our work** <ins>
+<p align="center"> <ins>Click on the thumbnail below to watch a short video on YouTube summarizing our work<ins>
+</p>
 
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=2hrkvZmuVxI"><img src="https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
 
-[![](https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg)](https://www.youtube.com/watch?v=2hrkvZmuVxI)
 
 ---
  

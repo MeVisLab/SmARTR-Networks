@@ -27,14 +27,14 @@ The SmARTR networks integrate every step necessary for high-quality renderings a
 ***
 
 
-**1. SmARTR_Single_Volume network**
+**1. <ins>SmARTR_Single_Volume network<ins>**
 
 The SmARTR_Single_Volume network is designed for rendering a single, homogeneous, and non-segmented volume—such as a single organ or animal part. "Homogeneous" refers to both the exterior and interior composition of the volume, which can be well approximated by a single appearance profile (color, light interaction, etc.). This ensures that the rendering accurately represents the volume's natural aspect, even if volume cutting is performed.
 
 •	_If the single volume has non-homogeneous structures you wish to highlight, consider using the **SmARTR_Nested_Multi-Volume network** for photorealistic cutaway views._
 ________________________________________
 
-**2. SmARTR_Multi-Mask_Volume network**
+**2. <ins>SmARTR_Multi-Mask_Volume network<ins>**
 
 
 The SmARTR_Multi-Mask_Volume network allows rendering of multiple subvolumes derived from the same scan volume within the same 3D scene. This is achieved by utilizing segmentation masks to "label" corresponding subvolumes on the whole scan volume. The network generates multiple instances (copies) of the entire scan volume, each displaying only the subvolume specified by its segmentation mask.
@@ -45,7 +45,7 @@ The SmARTR_Multi-Mask_Volume network allows rendering of multiple subvolumes der
 
 •	_If independent manipulation of subvolumes is needed, consider the **SmARTR_Multi-Independent_Volume network**._
 ________________________________________
-**3. SmARTR_Multi-Independent_Volume network**
+**3. <ins>SmARTR_Multi-Independent_Volume network<ins>**
 
 The SmARTR_Multi-Independent_Volume network provides a method to render multiple subvolumes extracted from the same scan volume as independent structures within the same 3D scene. Subvolumes are extracted using segmentation masks in an accessory network (the SmARTR_Volume_Extraction network) and then rendered independently.
 
@@ -53,13 +53,13 @@ The SmARTR_Multi-Independent_Volume network provides a method to render multiple
 
 •	_The network allows generating cuts in multiple volumes using a single cutting module—a feature not possible in the **SmARTR_Multi-Mask_Volume network**._
 ________________________________________
-**4. SmARTR_Nested_Multi-Volume network**
+**4.<ins> SmARTR_Nested_Multi-Volume network<ins>**
 
 The SmARTR_Nested_Multi-Volume network enables photorealistic cutaway views when dealing with volumes nested within one another, such as the head with its skull and brain, or the body with its visceral organs. The strategy developed in this network saves time by avoiding the need for extensive segmentation of intermediate structures when creating photorealistic multi-organ cutaway views. Volume cutting operations in this network generate a supplementary volume at the interface between the exposed surface and the overlaying space. This new volume can be rendered independently to match the internal appearance of the sectioned volume, thereby enhancing scene realism.
 
 •	_The network can be utilized when dealing with single non-homogeneous volumes and also to add an extra level of control and refinement when rendering single homogeneous volumes._
 ________________________________________
-**5. SmARTR_Pattern_Drawing network**
+**5. <ins>SmARTR_Pattern_Drawing network<ins>**
 
 The SmARTR_Pattern_Drawing network allows the creation of color patterns on volumes to approximate the natural coloration of samples. While complex color schemes may be unattainable due to limitations of internal imaging and DVR techniques, this network enables the generation of multiple patterns rendered as independent structures, enhancing realism and lifelikeness of rendered specimens.
 
@@ -67,7 +67,7 @@ The SmARTR_Pattern_Drawing network allows the creation of color patterns on volu
 
 •	_The binary masks generated during pattern drawing can be utilized in the **SmARTR_Advanced_Multi-Volume network** to create enhanced cutaway views._
 ________________________________________
-**6. SmARTR_Advanced_Multi-Volume network**
+**6. <ins>SmARTR_Advanced_Multi-Volume network<ins>**
 
 The SmARTR_Advanced_Multi-Volume network is a modified version of the SmARTR_Nested_Multi-Volume network and serves as the endpoint of a workflow involving multiple networks. It allows enhanced cutaway views of multiple volumes that share the same internal structure but differ in surface color, such as the atrial and ventricular regions of the lizard’s heart or differently colored parts of a lizard's body.
 
@@ -85,7 +85,7 @@ To showcase the capabilities of the SmARTR pipeline powered by the MeVis path tr
 
 ![MeVisLab_Web_Panel_1 copy](https://github.com/user-attachments/assets/95739f70-39ff-4787-9bca-eac37b5f1c85)
 
-**(Top row)**: Images of a live specimen of the lizard *Anolis carolinensis* (left) and the dissected heart from the bearded dragon lizard, *Pogona vitticeps* (right). **(Bottom row)**: 3D renderings of the heart of *Pogona vitticeps* (top left), the sectioned head of *Anolis carolinensis* highlighting the skull and brain (top right), and an intact specimen of *Anolis carolinensis* (bottom). **$\textcolor{blue}{SmARTR\ Networks\ used}$**: **SmARTR_Multi-Independent_Volume network** for the *Pogona vitticeps* heart; **SmARTR_Advanced_Multi-Volume network** for the sectioned head; **SmARTR_Pattern_Drawing** for the intact *Anolis carolinensis* specimen.
+**(Top row)**: Images of a live specimen of the lizard *Anolis carolinensis* (left) and the dissected heart from the bearded dragon lizard, *Pogona vitticeps* (right). **(Bottom row)**: 3D renderings of the heart of *Pogona vitticeps* (top left), the sectioned head of *Anolis carolinensis* highlighting the skull and brain (top right), and an intact specimen of *Anolis carolinensis* (bottom). **$\textcolor{red}{SmARTR\ Networks\ used}$** : **SmARTR_Multi-Independent_Volume network** for the *Pogona vitticeps* heart; **SmARTR_Advanced_Multi-Volume network** for the sectioned head; **SmARTR_Pattern_Drawing** for the intact *Anolis carolinensis* specimen.
   **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 
@@ -93,19 +93,19 @@ To showcase the capabilities of the SmARTR pipeline powered by the MeVis path tr
 ![MeVisLab_Web_Panel_2 copy](https://github.com/user-attachments/assets/330a9800-d633-45dc-89f3-8ba5d389986b)
 
 
-**(Top row)**: Renderings of the head of the snake *Cerastes cerastes*—intact (left) and sectioned to highlight the venom system (right). **(Bottom row)**: Renderings of the anterior part of the hillstream loach, *Gastromyzon zebrinus*—sectioned to highlight the skeleton, brain, and gills (left) and intact (right).  **$\textcolor{blue}{SmARTR\ Networks\ used}$**: **SmARTR_Pattern_Drawing network** for the intact specimens; **SmARTR_Advanced_Multi-Volume network** for the cutaway views.  **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
+**(Top row)**: Renderings of the head of the snake *Cerastes cerastes*—intact (left) and sectioned to highlight the venom system (right). **(Bottom row)**: Renderings of the anterior part of the hillstream loach, *Gastromyzon zebrinus*—sectioned to highlight the skeleton, brain, and gills (left) and intact (right).  **$\textcolor{red}{SmARTR\ Networks\ used}$** : **SmARTR_Pattern_Drawing network** for the intact specimens; **SmARTR_Advanced_Multi-Volume network** for the cutaway views.  **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 ***
 ![MeVisLab_Web_Panel_3 copy](https://github.com/user-attachments/assets/028076e9-a54a-4e79-ac12-56f0fe44e694)
 
 
-**(Top row)**: Renderings of the head of the lizard *Basiliscus vittatus* (left), and the heart (middle) and lungs (right) of the lizard *Pogona vitticeps*, both sectioned to reveal internal structures. **(Bottom row)**: Renderings of the lungs (left), head (middle), and trunk (right) of the house mouse, *Mus musculus*. **$\textcolor{blue}{SmARTR\ Networks\ used}$**: **SmARTR_Pattern_Drawing network** for the intact specimen; **SmARTR_Nested_Multi-Volume network** for the mouse head, lungs, and trunk, and lizard lungs; **SmARTR_Advanced_Multi-Volume network** for the cutaway view of the lizard heart. **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
+**(Top row)**: Renderings of the head of the lizard *Basiliscus vittatus* (left), and the heart (middle) and lungs (right) of the lizard *Pogona vitticeps*, both sectioned to reveal internal structures. **(Bottom row)**: Renderings of the lungs (left), head (middle), and trunk (right) of the house mouse, *Mus musculus*. **$\textcolor{red}{SmARTR\ Networks\ used}$** : **SmARTR_Pattern_Drawing network** for the intact specimen; **SmARTR_Nested_Multi-Volume network** for the mouse head, lungs, and trunk, and lizard lungs; **SmARTR_Advanced_Multi-Volume network** for the cutaway view of the lizard heart. **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 ***
 ![MeVisLab_Web_Panel_4 copy](https://github.com/user-attachments/assets/ed48cebd-8265-4c9b-8e00-a13102015dbe)
 
 
-**(Top row)**: Forelimbs of the tree frog *Agalychnis callidryas* (left) and the dwarf chameleon *Chamaeleo calyptratus* (right). **(Bottom row)**: Rendering of the skeleton and internal organs of the tree frog *Agalychnis callidryas* (left), the intact body of the cricket *Gryllus bimaculatus* (middle), and the ground beetle *Pterostichus oblongopunctatus* (right).  **$\textcolor{blue}{SmARTR\ Networks\ used}$**: **SmARTR_Single-Volume network** for both species' forelimbs and the beetle rendering; **SmARTR_Multi-Independent_Volume network** for the frog's skeleton and organs; **SmARTR_Pattern_Drawing neywork** for the intact cricket specimen. **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
+**(Top row)**: Forelimbs of the tree frog *Agalychnis callidryas* (left) and the dwarf chameleon *Chamaeleo calyptratus* (right). **(Bottom row)**: Rendering of the skeleton and internal organs of the tree frog *Agalychnis callidryas* (left), the intact body of the cricket *Gryllus bimaculatus* (middle), and the ground beetle *Pterostichus oblongopunctatus* (right).  **$\textcolor{red}{SmARTR\ Networks\ used}$** : **SmARTR_Single-Volume network** for both species' forelimbs and the beetle rendering; **SmARTR_Multi-Independent_Volume network** for the frog's skeleton and organs; **SmARTR_Pattern_Drawing neywork** for the intact cricket specimen. **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 ___________________________
 **Contribute**

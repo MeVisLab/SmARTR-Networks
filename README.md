@@ -9,19 +9,19 @@ A series of **MeVisLab** networks to implement photorealistic renderings through
 
 Welcome to the **Sm**all **A**nimal **R**ealistic **T**hree-dimensional **R**endering Pipeline (**SmARTR**) GitHub repository!
 
-The **SmARTR** Pipeline is a comprehensive multi-step workflow ($\textcolor{yellow}{see\ figure\ below}$) that guides users through sample preparation, imaging and visualization procedures. This project hosts a collection of comprehensive **MeVisLab** network files—referred to as **SmARTR networks**—designed to leverage the extraordinary capabilities of the **MeVis path tracer** in generating **photorealistic renderings** of 3D data. These networks integrate all steps from sample loading to rendering, volume modification, and the final processes required to produce high definition 2D images of your samples.
-To assist users in implementing and utilizing the **SmARTR** visualization framework, a [**step-by-step guide**](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) is provided as the Supplemental Data of our article. This guide details the implementation and use of the different **SmARTR networks**. **$\textcolor{yellow}{The\ SmARTR\ Networks\ are\ available}$** [**HERE**](https://github.com/MeVisLab/SmARTR-Networks/raw/refs/heads/main/SmARTR%20Networks.zip?download=]) and on [**Zenodo**](https://doi.org/10.5281/zenodo.12508131) as a zipped folder. The folder contains also fully pre-configured versions of the networks and the relevant scan and mask files needed to replicate the visualizations described in the various sections of the guide.
+The **SmARTR** Pipeline is a comprehensive multi-step workflow ($\textcolor{blue}{see\ figure\ below}$) that guides users through sample preparation, imaging and visualization procedures. This project hosts a collection of comprehensive **MeVisLab** network files—referred to as **SmARTR networks**—designed to leverage the extraordinary capabilities of the **MeVis path tracer** in generating **photorealistic renderings** of 3D data. These networks integrate all steps from sample loading to rendering, volume modification, and the final processes required to produce high definition 2D images of your samples.
+To assist users in implementing and utilizing the **SmARTR** visualization framework, a [**step-by-step guide**](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) is provided as the Supplemental Data of our article. This guide details the implementation and use of the different **SmARTR networks**. **$\textcolor{orangered}{The\ SmARTR\ Networks\ are\ available}$** [**HERE**](https://github.com/MeVisLab/SmARTR-Networks/raw/refs/heads/main/SmARTR%20Networks.zip?download=]) and on [**Zenodo**](https://doi.org/10.5281/zenodo.12508131) as a zipped folder. The folder contains also fully pre-configured versions of the networks and the relevant scan and mask files needed to replicate the visualizations described in the various sections of the guide.
 
 Although our primary focus has been on small animal microCT scanning, the pipeline is versatile and can be applied to any biological specimen and 3D data, including those derived from MRI and other imaging methodologies.
 
 ![G_ABS_3_RED_FINAL_GIT](https://github.com/user-attachments/assets/9613c040-93a3-4f04-a6cd-85ebb4a4dddc)
 
-**$\textcolor{red}{Click\ on\ the\ thumbnail\ below\ to\ watch\ a\ short\ video\ on\ YouTube\ summarizing\ our\ work}$**
+**$\textcolor{orangered}{Click\ on\ the\ thumbnail\ below\ to\ watch\ a\ short\ video\ on\ YouTube\ summarizing\ our\ work}$**
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg)](https://www.youtube.com/watch?v=2hrkvZmuVxI)
 ________________________________________
 
-**$\textcolor{yellow}{The\ SmARTR\ networks\ at\ a\ glance}$**
+**$\textcolor{blue}{The\ SmARTR\ networks\ at\ a\ glance}$**
 
 The SmARTR networks integrate every step necessary for high-quality renderings and, though each network is designed with a particular scenario in mind, their applications are broad. As a general overview of the possibilities offered by each network, please have a look at **Figure 2** in the article.
 ***
@@ -78,34 +78,34 @@ The SmARTR_Advanced_Multi-Volume network is a modified version of the SmARTR_Nes
 ________________________________________
 For detailed instructions, please refer to the [**step-by-step guide**](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) provided as Supplemental Data of the article.
 ________________________________________
-**$\textcolor{yellow}{Rendering\ examples}$**
+**$\textcolor{red}{Rendering\ examples}$**
 
 To showcase the capabilities of the SmARTR pipeline powered by the MeVis path tracer, here are some examples of photorealistic 3D renderings generated using our networks:
 
 
 ![MeVisLab_Web_Panel_1 copy](https://github.com/user-attachments/assets/95739f70-39ff-4787-9bca-eac37b5f1c85)
 
-**(Top row)**: Images of a live specimen of the lizard *Anolis carolinensis* (left) and the dissected heart from the bearded dragon lizard, *Pogona vitticeps* (right). **(Bottom row)**: 3D renderings of the heart of *Pogona vitticeps* (top left), the sectioned head of *Anolis carolinensis* highlighting the skull and brain (top right), and an intact specimen of *Anolis carolinensis* (bottom). **$\textcolor{yellow}{SmARTR\ Networks\ used}$**: **SmARTR_Multi-Independent_Volume network** for the *Pogona vitticeps* heart; **SmARTR_Advanced_Multi-Volume network** for the sectioned head; **SmARTR_Pattern_Drawing** for the intact *Anolis carolinensis* specimen.
-  **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
+**(Top row)**: Images of a live specimen of the lizard *Anolis carolinensis* (left) and the dissected heart from the bearded dragon lizard, *Pogona vitticeps* (right). **(Bottom row)**: 3D renderings of the heart of *Pogona vitticeps* (top left), the sectioned head of *Anolis carolinensis* highlighting the skull and brain (top right), and an intact specimen of *Anolis carolinensis* (bottom). **$\textcolor{blue}{SmARTR\ Networks\ used}$**: **SmARTR_Multi-Independent_Volume network** for the *Pogona vitticeps* heart; **SmARTR_Advanced_Multi-Volume network** for the sectioned head; **SmARTR_Pattern_Drawing** for the intact *Anolis carolinensis* specimen.
+  **$\textcolor{orangered}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 
 ***
 ![MeVisLab_Web_Panel_2 copy](https://github.com/user-attachments/assets/330a9800-d633-45dc-89f3-8ba5d389986b)
 
 
-**(Top row)**: Renderings of the head of the snake *Cerastes cerastes*—intact (left) and sectioned to highlight the venom system (right). **(Bottom row)**: Renderings of the anterior part of the hillstream loach, *Gastromyzon zebrinus*—sectioned to highlight the skeleton, brain, and gills (left) and intact (right).  **$\textcolor{yellow}{SmARTR\ Networks\ used}$**: **SmARTR_Pattern_Drawing network** for the intact specimens; **SmARTR_Advanced_Multi-Volume network** for the cutaway views.  **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
+**(Top row)**: Renderings of the head of the snake *Cerastes cerastes*—intact (left) and sectioned to highlight the venom system (right). **(Bottom row)**: Renderings of the anterior part of the hillstream loach, *Gastromyzon zebrinus*—sectioned to highlight the skeleton, brain, and gills (left) and intact (right).  **$\textcolor{blue}{SmARTR\ Networks\ used}$**: **SmARTR_Pattern_Drawing network** for the intact specimens; **SmARTR_Advanced_Multi-Volume network** for the cutaway views.  **$\textcolor{orangered}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 ***
 ![MeVisLab_Web_Panel_3 copy](https://github.com/user-attachments/assets/028076e9-a54a-4e79-ac12-56f0fe44e694)
 
 
-**(Top row)**: Renderings of the head of the lizard *Basiliscus vittatus* (left), and the heart (middle) and lungs (right) of the lizard *Pogona vitticeps*, both sectioned to reveal internal structures. **(Bottom row)**: Renderings of the lungs (left), head (middle), and trunk (right) of the house mouse, *Mus musculus*. **$\textcolor{yellow}{SmARTR\ Networks\ used}$**: **SmARTR_Pattern_Drawing network** for the intact specimen; **SmARTR_Nested_Multi-Volume network** for the mouse head, lungs, and trunk, and lizard lungs; **SmARTR_Advanced_Multi-Volume network** for the cutaway view of the lizard heart. **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
+**(Top row)**: Renderings of the head of the lizard *Basiliscus vittatus* (left), and the heart (middle) and lungs (right) of the lizard *Pogona vitticeps*, both sectioned to reveal internal structures. **(Bottom row)**: Renderings of the lungs (left), head (middle), and trunk (right) of the house mouse, *Mus musculus*. **$\textcolor{blue}{SmARTR\ Networks\ used}$**: **SmARTR_Pattern_Drawing network** for the intact specimen; **SmARTR_Nested_Multi-Volume network** for the mouse head, lungs, and trunk, and lizard lungs; **SmARTR_Advanced_Multi-Volume network** for the cutaway view of the lizard heart. **$\textcolor{orangered}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 ***
 ![MeVisLab_Web_Panel_4 copy](https://github.com/user-attachments/assets/ed48cebd-8265-4c9b-8e00-a13102015dbe)
 
 
-**(Top row)**: Forelimbs of the tree frog *Agalychnis callidryas* (left) and the dwarf chameleon *Chamaeleo calyptratus* (right). **(Bottom row)**: Rendering of the skeleton and internal organs of the tree frog *Agalychnis callidryas* (left), the intact body of the cricket *Gryllus bimaculatus* (middle), and the ground beetle *Pterostichus oblongopunctatus* (right).  **$\textcolor{yellow}{SmARTR\ Networks\ used}$**: **SmARTR_Single-Volume network** for both species' forelimbs and the beetle rendering; **SmARTR_Multi-Independent_Volume network** for the frog's skeleton and organs; **SmARTR_Pattern_Drawing neywork** for the intact cricket specimen. **$\textcolor{red}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
+**(Top row)**: Forelimbs of the tree frog *Agalychnis callidryas* (left) and the dwarf chameleon *Chamaeleo calyptratus* (right). **(Bottom row)**: Rendering of the skeleton and internal organs of the tree frog *Agalychnis callidryas* (left), the intact body of the cricket *Gryllus bimaculatus* (middle), and the ground beetle *Pterostichus oblongopunctatus* (right).  **$\textcolor{blue}{SmARTR\ Networks\ used}$**: **SmARTR_Single-Volume network** for both species' forelimbs and the beetle rendering; **SmARTR_Multi-Independent_Volume network** for the frog's skeleton and organs; **SmARTR_Pattern_Drawing neywork** for the intact cricket specimen. **$\textcolor{orangered}{© Macrì\ S\ and\ Di-Poï \ N\ (University\ of\ Helsinki,\ Finland)}$** 
 
 ___________________________
 **Contribute**

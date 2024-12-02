@@ -16,12 +16,17 @@ Although our primary focus has been on small animal microCT scanning, the pipeli
 
 ![G_ABS_3_RED_FINAL_GIT](https://github.com/user-attachments/assets/9613c040-93a3-4f04-a6cd-85ebb4a4dddc)
 
-**$\textcolor{red}{Click\ on\ the\ thumbnail\ below\ to\ watch\ a\ short\ video\ on\ YouTube\ summarizing\ our\ work}$**
+<p align="center">
+<ins> **Click on the thumbnail below to watch a short video on YouTube summarizing our work** <ins>
+  </p>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg)](https://www.youtube.com/watch?v=2hrkvZmuVxI)
-________________________________________
+<p align="center">
+  <img src="https://img.youtube.com/vi/2hrkvZmuVxI/0.jpg?raw=true" alt="Sublime's custom image"/>
+</p>
 
-**$\textcolor{red}{The\ SmARTR\ networks\ at\ a\ glance}$**
+
+ 
+ **The SmARTR networks at a glance**
 
 The SmARTR networks integrate every step necessary for high-quality renderings and, though each network is designed with a particular scenario in mind, their applications are broad. As a general overview of the possibilities offered by each network, please have a look at **Figure 2** in the article.
 ***

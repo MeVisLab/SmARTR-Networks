@@ -128,11 +128,11 @@ ___________________________
 
 We welcome contributions from the community! Feel free to:
 
-•	Modify networks: Adapt networks to new use cases and share your enhancements.
+•	**Modify networks**: Adapt networks to new use cases and share your enhancements.
 
-•	Report issues: Submit bug reports.
+•	**Report issues**: Submit bug reports.
 
-•	Collaborate: Join discussions and collaborate on future developments.
+•	**Collaborate**: Join discussions and collaborate on future developments.
 
 For questions, support, or to share your experiences, please open an issue in the repository or contact us by email at: simone.macri@helsinki.fi
 

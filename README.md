@@ -12,7 +12,7 @@ A series of **MeVisLab** networks to implement photorealistic renderings through
 Welcome to the **Sm**all **A**nimal **R**ealistic **T**hree-dimensional **R**endering Pipeline (**SmARTR**) GitHub repository!
 
 The **SmARTR** Pipeline is a comprehensive multi-step workflow (**see figure below**) that guides users through sample preparation, imaging and visualization procedures. This project hosts a collection of comprehensive **MeVisLab** network files—referred to as **SmARTR networks**—designed to leverage the extraordinary capabilities of the **MeVis path tracer** in generating **photorealistic renderings** of 3D data. These networks integrate all steps from sample loading to rendering, volume modification, and the final processes required to produce high definition 2D images of your samples.
-To assist users in implementing and utilizing the **SmARTR** visualization framework, a [**step-by-step guide**](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) is provided as the **Supplemental Data** of our article. This guide details the implementation and use of the different **SmARTR networks**.
+To assist users in implementing and utilizing the **SmARTR** visualization framework, a [**step-by-step guide**](https://www.cell.com/cms/10.1016/j.isci.2024.111475/attachment/23970365-281d-4f23-bd55-d15fa8a8467f/mmc1.pdf) is provided as the **Supplemental Data** of our article. This guide details the implementation and use of the different **SmARTR networks**.
 
 **The SmARTR Networks are available** [**HERE**](https://github.com/MeVisLab/SmARTR-Networks/raw/refs/heads/main/SmARTR%20Networks.zip?download=) and on [**Zenodo**](https://doi.org/10.5281/zenodo.12508131) as a zipped folder. The folder contains also fully pre-configured versions of the networks along with the relevant scan and mask files needed to replicate the visualizations described in the various sections of the guide.
 
@@ -91,7 +91,7 @@ The SmARTR_Advanced_Multi-Volume network is a modified version of the SmARTR_Nes
 •	_As for the **SmARTR_Multi-Independent_Volume network**, the individual volumes are extracted in the **SmARTR_Volume_Extraction network**._
 
 ________________________________________
-For detailed instructions, please refer to the [**step-by-step guide**](https://www.biorxiv.org/content/biorxiv/early/2024/07/05/2024.07.03.601651/DC1/embed/media-1.pdf?download=true) provided as Supplemental Data of the article.
+For detailed instructions, please refer to the [**step-by-step guide**](https://www.cell.com/cms/10.1016/j.isci.2024.111475/attachment/23970365-281d-4f23-bd55-d15fa8a8467f/mmc1.pdf) provided as Supplemental Data of the article.
 ________________________________________
 <ins> **Rendering examples** <ins>
 

@@ -106,6 +106,11 @@ To showcase the capabilities of the SmARTR pipeline powered by the MeVis path tr
 
 
 ***
+
+![Epicrates_cenchria_illustration_FINAL_1080SMALLER](https://github.com/user-attachments/assets/addc9407-92d8-4c81-9991-2142984e7e57)
+
+
+***
 ![MeVisLab_Web_Panel_2 copy](https://github.com/user-attachments/assets/330a9800-d633-45dc-89f3-8ba5d389986b)
 
 

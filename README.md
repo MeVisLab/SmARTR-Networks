@@ -5,22 +5,20 @@ A series of **MeVisLab** networks to implement photorealistic renderings through
 
 ***
 
-<p align="center">
-  <strong><ins>LATEST NEWS — Nature gets SmARTR!</ins></strong>
-</p>
+<h2 align="center"> <ins>LATEST NEWS — Nature gets SmARTR!</ins> </h2>
 
 <p align="center">
-  <strong>The SmARTR Pipeline featured in a new <i>Nature</i> study on the exceptional fossil snake <i>Tametara mirim</i>.</strong>
+  The <strong>SmARTR Pipeline</strong> featured in a new <strong><i>Nature</i></strong> study on the <strong>exceptional</strong> fossil snake <strong><i>Tametara mirim</i></strong>.
 </p>
 
 In [***Exceptional brain and ecological diversity in the earliest snakes***](https://www.nature.com/articles/s41586-026-10809-9), we describe ***Tametara mirim***, an exceptionally preserved Late Cretaceous snake from Brazil. Before *Tametara*, only **three Mesozoic snake fossils preserved in 3D** were known, making it only the **fourth such specimen ever discovered** and one of the most complete fossil snake skeletons known. Its extraordinary preservation provided an unprecedented view of an early snake, from its skeleton and skull to the **brain endocast, cranial nerves, and inner ear**.
 
-**Every cinematic 3D rendering of *Tametara* in the study was produced using SmARTR.** From the skeleton and skull to the reconstructed endocast and internal anatomy, the pipeline allowed us to ***render justice*** to this extraordinary fossil 🙂, bringing out subtle anatomical details that are difficult to fully appreciate with conventional scientific rendering approaches.
+**Every cinematic 3D rendering of *Tametara* in the study was produced using the SmARTR pipeline.** From the skeleton and skull to the reconstructed endocast and internal anatomy, the pipeline allowed us to ***render justice*** to this extraordinary fossil 😉, bringing out subtle anatomical details that are difficult to fully appreciate with conventional scientific rendering approaches.
 
 But *Tametara* is much more than an exceptionally preserved fossil. The study **overturns more than a century of debate centered on a single ecological path for early snake evolution**. Instead, it reveals a far richer evolutionary landscape, with early snakes already exploring remarkably different **underground, terrestrial, and marine lifestyles**.
 
 <p align="center">
-  <ins>Meet <b><i>Tametara</i>, the Queen of Snakes</b>, and see SmARTR bringing this extraordinary fossil back to life.</ins>
+  <ins>Meet <b>the Queen of Snakes</b>, and see the SmARTR pipeline bringing the wonderful <strong><i>Tametara</i></strong> back to life.</ins>
 </p>
 
 <div align="center">

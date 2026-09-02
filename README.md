@@ -5,7 +5,7 @@ A series of **MeVisLab** networks to implement photorealistic renderings through
 
 ***
 
-<h2 align="center"> <ins>LATEST NEWS — Nature gets SmARTR!</ins> </h2>
+<h2 align="center"> <ins>LATEST NEWS — <i>Nature</i> gets SmARTR!</ins> </h2>
 
 <p align="center">
   The <strong>SmARTR Pipeline</strong> featured in a new <strong><i>Nature</i></strong> study on the <strong>exceptional</strong> fossil snake <strong><i>Tametara mirim</i></strong>.

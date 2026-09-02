@@ -13,9 +13,9 @@ A series of **MeVisLab** networks to implement photorealistic renderings through
 
 In [***Exceptional brain and ecological diversity in the earliest snakes***](https://www.nature.com/articles/s41586-026-10809-9), we describe ***Tametara mirim***, an exceptionally preserved Late Cretaceous snake from Brazil. <strong>Before</strong> *Tametara*, only **three Mesozoic snake fossils preserved in 3D** were known, making it only the **fourth such specimen ever discovered** and one of the most complete fossil snake skeletons known. Its extraordinary preservation provided an unprecedented view of an early snake, from its skeleton and skull to the **brain endocast, cranial nerves, and inner ear**.
 
-**Every cinematic 3D rendering of *Tametara* in the study was produced using the SmARTR pipeline.** From the skeleton and skull to the reconstructed endocast and internal anatomy, the pipeline allowed us to ***render justice*** to this extraordinary fossil 😉, bringing out subtle anatomical details that are difficult to fully appreciate with conventional scientific rendering approaches.
+**Every cinematic 3D rendering of *Tametara* in the study was produced using the SmARTR pipeline** allowing us to ***render justice*** to this extraordinary fossil 😉 and bring out subtle anatomical details that are difficult to fully appreciate with conventional rendering approaches.
 
-But *Tametara* is much more than an exceptionally preserved fossil. The study **overturns more than a century of debate centered on a single ecological path for early snake evolution**. Instead, it reveals a far richer evolutionary landscape, with early snakes already exploring remarkably different **underground, terrestrial, and marine lifestyles**.
+But <strong>*Tametara*</strong> is much more than an exceptionally preserved fossil. The study **overturns more than a century of debate centered on a single ecological path for early snake evolution**. Instead, it reveals a far richer evolutionary landscape, with early snakes already exploring remarkably different **underground, terrestrial, and marine lifestyles**.
 
 <p align="center">
   <ins>Meet <b>the Queen of Snakes</b>, and see the SmARTR pipeline bringing the wonderful <strong><i>Tametara</i></strong> back to life.</ins>

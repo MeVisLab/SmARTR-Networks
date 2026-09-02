@@ -3,9 +3,6 @@ A series of **MeVisLab** networks to implement photorealistic renderings through
 
 "[**The SmARTR pipeline: a modular workflow for the cinematic rendering of 3D scientific imaging data**](https://www.cell.com/iscience/fulltext/S2589-0042(24)02702-0)"
 
-![SmARTR_GIF_ADJ](https://github.com/user-attachments/assets/4f82c9cc-06e3-4640-98c7-0b78a137b818)
-
----
 ***
 
 <p align="center">
@@ -35,6 +32,19 @@ But *Tametara* is much more than an exceptionally preserved fossil. The study **
 </p>
 
 ***
+
+
+
+
+
+
+
+
+
+
+![SmARTR_GIF_ADJ](https://github.com/user-attachments/assets/4f82c9cc-06e3-4640-98c7-0b78a137b818)
+
+---
 
 **The SmARTR Pipeline**
 
